@@ -11,14 +11,10 @@
             "id": "c6f4c50fc57a79e5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01 TGC运营/TGC运营规划.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "TGC运营规划"
+              "title": "新标签页"
             }
           }
         ]
@@ -194,8 +190,9 @@
       "bases:新建数据库": false
     }
   },
-  "active": "c6f4c50fc57a79e5",
+  "active": "e44d7ee056d8c80d",
   "lastOpenFiles": [
+    "01 TGC运营/04 价值传播与增长/全渠道分发矩阵",
     "02 课程研发/BL2",
     "01 TGC运营/TGC运营规划.md",
     "01 TGC运营/05 系统复盘与优化",
@@ -209,7 +206,6 @@
     "02 课程研发",
     "03 工作总结/03 月报",
     "03 工作总结/02 周报",
-    "03 工作总结/01 日报",
     "Obsidian学习.md"
   ]
 }
