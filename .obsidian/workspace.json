@@ -11,13 +11,10 @@
             "id": "c6f4c50fc57a79e5",
             "type": "leaf",
             "state": {
-              "type": "bases",
-              "state": {
-                "file": "未命名.base",
-                "viewName": "表格"
-              },
-              "icon": "lucide-table",
-              "title": "未命名"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
             }
           }
         ]
@@ -193,10 +190,14 @@
       "bases:新建数据库": false
     }
   },
-  "active": "c6f4c50fc57a79e5",
+  "active": "e44d7ee056d8c80d",
   "lastOpenFiles": [
+    "未命名",
+    "Obsidian学习",
+    "TGC运营.base",
+    "TGC运营",
+    "未命名.md",
     "Obsidian学习.md",
-    "未命名.base",
     "~建 XLSX 工作表.tmp",
     "新建 XLSX 工作表.xlsx",
     "新建 文本文档.txt"
