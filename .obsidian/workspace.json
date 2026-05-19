@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian学习.md",
+                "file": "01 TGC运营/04 价值传播与增长/素材收集/讲师访谈结构化摘要.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Obsidian学习 的反向链接列表"
+              "title": "讲师访谈结构化摘要 的反向链接列表"
             }
           },
           {
@@ -175,8 +175,7 @@
               "title": "Source Control"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
