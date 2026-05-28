@@ -11,10 +11,14 @@
             "id": "c6f4c50fc57a79e5",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "关系图谱"
+              "type": "markdown",
+              "state": {
+                "file": "01 TGC运营/04 价值传播与增长/全渠道分发矩阵/01 运营策略/糖果厂第二周运营策略-1.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "糖果厂第二周运营策略-1"
             }
           }
         ]
@@ -152,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "未命名.base",
+                "file": "01 TGC运营/04 价值传播与增长/全渠道分发矩阵/01 运营策略/糖果厂第二周运营策略-1.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "未命名 的大纲"
+              "title": "糖果厂第二周运营策略-1 的大纲"
             }
           },
           {
@@ -172,7 +176,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -180,6 +184,8 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-custom-frames:Open 豆包": false,
+      "obsidian-custom-frames:Open DeepSeek": false,
       "obsidian-git:Open Git source control": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
@@ -192,7 +198,7 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "c6f4c50fc57a79e5",
+  "active": "07ea9a005f03a56c",
   "lastOpenFiles": [
     "copilot/copilot-custom-prompts/Clip Web Page.md",
     "copilot/copilot-custom-prompts/Clip YouTube Transcript.md",
