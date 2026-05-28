@@ -11,14 +11,13 @@
             "id": "c6f4c50fc57a79e5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "01 TGC运营/04 价值传播与增长/全渠道分发矩阵/01 运营策略/糖果厂第二周运营策略-1.md",
-                "mode": "source",
-                "source": false
+                "file": "未命名 1.base",
+                "viewName": "表格"
               },
-              "icon": "lucide-file",
-              "title": "糖果厂第二周运营策略-1"
+              "icon": "lucide-table",
+              "title": "未命名 1"
             }
           }
         ]
@@ -156,13 +155,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01 TGC运营/04 价值传播与增长/全渠道分发矩阵/01 运营策略/糖果厂第二周运营策略-1.md",
-                "followCursor": false,
+                "file": "未命名 1.base",
+                "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "糖果厂第二周运营策略-1 的大纲"
+              "title": "未命名 1 的大纲"
             }
           },
           {
@@ -174,13 +173,23 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "11f0a51da1361acf",
+            "type": "leaf",
+            "state": {
+              "type": "copilot-chat-view",
+              "state": {},
+              "icon": "message-square",
+              "title": "Copilot"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 578.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -198,8 +207,11 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "07ea9a005f03a56c",
+  "active": "c6f4c50fc57a79e5",
   "lastOpenFiles": [
+    "未命名.base",
+    "未命名 1.base",
+    "01 TGC运营/04 价值传播与增长/全渠道分发矩阵/01 运营策略/糖果厂第二周运营策略-1.md",
     "copilot/copilot-custom-prompts/Clip Web Page.md",
     "copilot/copilot-custom-prompts/Clip YouTube Transcript.md",
     "copilot/copilot-custom-prompts/Rewrite as tweet thread.md",
@@ -226,16 +238,13 @@
     "01 TGC运营/04 价值传播与增长/全渠道分发矩阵/03 视频号运营/视频号运营策略第二版.md",
     "01 TGC运营/04 价值传播与增长/全渠道分发矩阵/01 运营策略/糖果厂第二周运营策略-2.md",
     "01 TGC运营/04 价值传播与增长/全渠道分发矩阵/03 视频号运营/未确认 232371.crdownload",
-    "01 TGC运营/04 价值传播与增长/全渠道分发矩阵/01 运营策略/糖果厂第二周运营策略-1.md",
     "01 TGC运营/04 价值传播与增长/全渠道分发矩阵/02 公众号运营/糖果厂二次推文/投稿糖果厂后他们发现了自己都不知道的事.md",
     "01 TGC运营/04 价值传播与增长/全渠道分发矩阵/02 公众号运营/糖果厂二次推文",
     "01 TGC运营/04 价值传播与增长/全渠道分发矩阵/01 运营策略",
-    "01 TGC运营/04 价值传播与增长/素材收集/讲师访谈结构化摘要.md",
     "03 工作总结/04 组内周例会",
     "04 日常学习/大S的一封信",
     "大S的一封信",
     "01 TGC运营/04 价值传播与增长/素材收集/未命名.base",
-    "01 TGC运营/04 价值传播与增长/素材收集/TGC·糖果厂案例内容",
     "01 TGC运营/04 价值传播与增长/全渠道分发矩阵/02 公众号运营/assets/糖果厂内容格式五要素.jpg"
   ]
 }
