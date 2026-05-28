@@ -11,10 +11,14 @@
             "id": "a612d4259014556d",
             "type": "leaf",
             "state": {
-              "type": "custom-frames-豆包",
-              "state": {},
-              "icon": "lucide-bot",
-              "title": "豆包"
+              "type": "split-diff-view",
+              "state": {
+                "aFile": ".obsidian/plugins/copilot/data.json",
+                "bFile": ".obsidian/plugins/copilot/data.json",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: data.json  (Working Tree)"
             }
           }
         ]
@@ -167,8 +171,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "git-view"
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           },
           {
@@ -190,6 +194,8 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-custom-frames:Open DeepSeek": false,
+      "obsidian-custom-frames:Open 豆包": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -199,17 +205,16 @@
       "bases:新建数据库": false,
       "obsidian-git:Open Git source control": false,
       "obsidian-importer:Open Importer": false,
-      "copilot:Open Copilot Chat": false,
-      "obsidian-custom-frames:Open 豆包": false,
-      "obsidian-custom-frames:Open DeepSeek": false
+      "copilot:Open Copilot Chat": false
     }
   },
-  "active": "a612d4259014556d",
+  "active": "11f0a51da1361acf",
   "lastOpenFiles": [
+    "copilot/copilot-conversations/你好@20260528_151547.md",
+    "01 TGC运营/04 价值传播与增长/全渠道分发矩阵/01 运营策略/糖果厂第二周运营策略-1.md",
     "01 TGC运营/04 价值传播与增长/全渠道分发矩阵/02 公众号运营/糖果厂人物特写-陈荣老师.md",
     "copilot/copilot-conversations/帮我评价一下这篇推文@20260528_134353.md",
     "copilot/copilot-conversations",
-    "01 TGC运营/04 价值传播与增长/全渠道分发矩阵/01 运营策略/糖果厂第二周运营策略-1.md",
     "未命名.base",
     "未命名 1.base",
     "copilot/copilot-custom-prompts/Clip Web Page.md",
@@ -237,7 +242,6 @@
     "01 TGC运营/04 价值传播与增长/全渠道分发矩阵/03 视频号运营/视频号运营策略第二版.md",
     "01 TGC运营/04 价值传播与增长/全渠道分发矩阵/01 运营策略/糖果厂第二周运营策略-2.md",
     "01 TGC运营/04 价值传播与增长/全渠道分发矩阵/03 视频号运营/未确认 232371.crdownload",
-    "01 TGC运营/04 价值传播与增长/全渠道分发矩阵/02 公众号运营/糖果厂二次推文/投稿糖果厂后他们发现了自己都不知道的事.md",
     "01 TGC运营/04 价值传播与增长/全渠道分发矩阵/02 公众号运营/糖果厂二次推文",
     "01 TGC运营/04 价值传播与增长/全渠道分发矩阵/01 运营策略",
     "03 工作总结/04 组内周例会",
