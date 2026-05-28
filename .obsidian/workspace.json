@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "23f163ce30cc160a",
+        "id": "ecd7eb5db0635e14",
         "type": "tabs",
         "children": [
           {
-            "id": "a612d4259014556d",
+            "id": "301513fd0c949e7e",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": ".obsidian/plugins/copilot/data.json",
-                "bFile": ".obsidian/plugins/copilot/data.json",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: data.json  (Working Tree)"
+              "type": "custom-frames-豆包",
+              "state": {},
+              "icon": "lucide-bot",
+              "title": "豆包"
             }
           }
         ]
@@ -194,8 +190,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-custom-frames:Open DeepSeek": false,
-      "obsidian-custom-frames:Open 豆包": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -205,10 +199,12 @@
       "bases:新建数据库": false,
       "obsidian-git:Open Git source control": false,
       "obsidian-importer:Open Importer": false,
-      "copilot:Open Copilot Chat": false
+      "copilot:Open Copilot Chat": false,
+      "obsidian-custom-frames:Open DeepSeek": false,
+      "obsidian-custom-frames:Open 豆包": false
     }
   },
-  "active": "11f0a51da1361acf",
+  "active": "301513fd0c949e7e",
   "lastOpenFiles": [
     "copilot/copilot-conversations/你好@20260528_151547.md",
     "01 TGC运营/04 价值传播与增长/全渠道分发矩阵/01 运营策略/糖果厂第二周运营策略-1.md",
