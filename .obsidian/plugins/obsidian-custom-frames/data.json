@@ -6,7 +6,7 @@
       "icon": "bot",
       "hideOnMobile": true,
       "addRibbonIcon": true,
-      "openInCenter": false,
+      "openInCenter": true,
       "zoomLevel": 1,
       "forceIframe": true,
       "customCss": "",
@@ -15,7 +15,7 @@
     {
       "url": "https://www.deepseek.com",
       "displayName": "DeepSeek",
-      "icon": "",
+      "icon": "bot",
       "hideOnMobile": true,
       "addRibbonIcon": true,
       "openInCenter": true,
