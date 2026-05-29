@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 TGC运营/00 TGC运营规划/TGC运营规划.md",
+                "file": "03 工作总结/02 周报/5月29日例会.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TGC运营规划"
+              "title": "5月29日例会"
             }
           }
         ]
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01 TGC运营/00 TGC运营规划/TGC运营规划.md",
+                "file": "03 工作总结/02 周报/5月29日例会.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "TGC运营规划 的出链列表"
+              "title": "5月29日例会 的出链列表"
             }
           },
           {
@@ -210,6 +210,7 @@
   },
   "active": "bdf9ed2fa4068e12",
   "lastOpenFiles": [
+    "01 TGC运营/00 TGC运营规划/TGC运营规划.md",
     "01 TGC运营/00 TGC运营规划/附件/Pasted image 20260529112759.png",
     "01 TGC运营/00 TGC运营规划/附件/Pasted image 20260529112747.png",
     "01 TGC运营/00 TGC运营规划/附件/Pasted image 20260529112734.png",
@@ -220,7 +221,6 @@
     "01 TGC运营/04 价值传播与增长/全渠道分发矩阵/03 视频号运营/陈荣老师_视频号运营策略（优化版）.md",
     "01 TGC运营/04 价值传播与增长/全渠道分发矩阵/AI协作内容产出路径·推文与视频号.md",
     "01 TGC运营/04 价值传播与增长/素材收集/陈荣老师采访视频/陈荣老师_完整文字稿_v2.md",
-    "01 TGC运营/00 TGC运营规划/TGC运营规划.md",
     "01 TGC运营/00 TGC运营规划/Pasted image 20260529110054.png",
     "01 TGC运营/00 TGC运营规划/Pasted image 20260529110126.png",
     "01 TGC运营/00 TGC运营规划/Pasted image 20260529110114.png",
@@ -231,7 +231,6 @@
     "Pasted image 20260529103330.png",
     "Pasted image 20260529103210.png",
     "Pasted image 20260529103306.png",
-    "Pasted image 20260529103443.png",
     "[[.md",
     "02 OKR/2026-OKR-模块.md",
     "02 OKR/2026-OKR-O2.md",
