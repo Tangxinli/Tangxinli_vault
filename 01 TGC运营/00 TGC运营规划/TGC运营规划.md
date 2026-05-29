@@ -4,9 +4,9 @@
 
 ---
 ## TGC运营规划/图片
-![[Pasted image 20260529110054.png]]
-![[Pasted image 20260529110114.png]]
-![[Pasted image 20260529110126.png]]
+![[附件/Pasted image 20260529112734.png]]
+![[附件/Pasted image 20260529112747.png]]
+![[附件/Pasted image 20260529112759.png]]
 ## 项目概述
 
 ### 1+3N核心问题
