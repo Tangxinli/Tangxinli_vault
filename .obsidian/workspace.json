@@ -8,54 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "301513fd0c949e7e",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Pasted image 20260529103210.png"
-              },
-              "icon": "lucide-image",
-              "title": "Pasted image 20260529103210"
-            }
-          },
-          {
-            "id": "89151b8a9fac5042",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Pasted image 20260529103330.png"
-              },
-              "icon": "lucide-image",
-              "title": "Pasted image 20260529103330"
-            }
-          },
-          {
-            "id": "eb18f97edaf8b085",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Pasted image 20260529103210.png"
-              },
-              "icon": "lucide-image",
-              "title": "Pasted image 20260529103210"
-            }
-          },
-          {
-            "id": "fbac70e40bf426bf",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Pasted image 20260529103210.png"
-              },
-              "icon": "lucide-image",
-              "title": "Pasted image 20260529103210"
-            }
-          },
-          {
             "id": "bdf9ed2fa4068e12",
             "type": "leaf",
             "state": {
@@ -69,8 +21,7 @@
               "title": "第一次总结"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -259,11 +210,11 @@
   },
   "active": "bdf9ed2fa4068e12",
   "lastOpenFiles": [
+    "01 TGC运营/TGC运营×AI/第一次总结.md",
     "01 TGC运营/TGC运营规划.md",
     "Pasted image 20260529103318.png",
     "01 TGC运营/附件/Pasted image 20260529110126.png",
     "01 TGC运营/附件/Pasted image 20260529110114.png",
-    "01 TGC运营/TGC运营×AI/第一次总结.md",
     "01 TGC运营/附件/Pasted image 20260529110054.png",
     "01 TGC运营/附件",
     "Pasted image 20260529103330.png",
