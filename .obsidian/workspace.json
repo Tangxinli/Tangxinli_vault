@@ -56,33 +56,21 @@
             }
           },
           {
-            "id": "5c2d7ffc60e1c5c5",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Pasted image 20260529103318.png"
-              },
-              "icon": "lucide-image",
-              "title": "Pasted image 20260529103318"
-            }
-          },
-          {
             "id": "bdf9ed2fa4068e12",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 TGC运营/TGC运营规划.md",
+                "file": "01 TGC运营/TGC运营×AI/第一次总结.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TGC运营规划"
+              "title": "第一次总结"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -155,7 +143,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01 TGC运营/TGC运营规划.md",
+                "file": "01 TGC运营/TGC运营×AI/第一次总结.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -165,7 +153,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "TGC运营规划 的反向链接列表"
+              "title": "第一次总结 的反向链接列表"
             }
           },
           {
@@ -174,12 +162,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01 TGC运营/TGC运营规划.md",
+                "file": "01 TGC运营/TGC运营×AI/第一次总结.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "TGC运营规划 的出链列表"
+              "title": "第一次总结 的出链列表"
             }
           },
           {
@@ -271,20 +259,23 @@
   },
   "active": "bdf9ed2fa4068e12",
   "lastOpenFiles": [
+    "01 TGC运营/TGC运营规划.md",
+    "Pasted image 20260529103318.png",
+    "01 TGC运营/附件/Pasted image 20260529110126.png",
+    "01 TGC运营/附件/Pasted image 20260529110114.png",
+    "01 TGC运营/TGC运营×AI/第一次总结.md",
+    "01 TGC运营/附件/Pasted image 20260529110054.png",
+    "01 TGC运营/附件",
     "Pasted image 20260529103330.png",
     "Pasted image 20260529103210.png",
-    "Pasted image 20260529103318.png",
     "Pasted image 20260529103306.png",
-    "01 TGC运营/TGC运营×AI/第一次总结.md",
     "Pasted image 20260529103443.png",
     "Pasted image 20260529103512.png",
     "Pasted image 20260529103555.png",
-    "Pasted image 20260529103538.png",
     "01 TGC运营/04 价值传播与增长/素材收集/陈荣老师采访视频/陈荣老师_完整文字稿_v2.md",
     "[[.md",
     "01 TGC运营/04 价值传播与增长/全渠道分发矩阵/03 视频号运营/讲师访谈·科学录制与高效剪辑操作手册.md",
     "02 OKR/2026-OKR-模块.md",
-    "01 TGC运营/TGC运营规划.md",
     "02 OKR/2026-OKR-O2.md",
     "02 OKR/2026年TGC运营OKR.md",
     "02 OKR/OKR工作区.md",
@@ -296,7 +287,6 @@
     "01 TGC运营/TGC运营×AI",
     "01 TGC运营/04 价值传播与增长/全渠道分发矩阵/03 视频号运营/陈荣老师_视频号运营策略（优化版）.md",
     "01 TGC运营/04 价值传播与增长/全渠道分发矩阵/03 视频号运营/视频号运营策略第二版.md",
-    "01 TGC运营/04 价值传播与增长/全渠道分发矩阵/02 公众号运营/assets/糖果厂内容格式五要素.jpg",
     "01 TGC运营/04 价值传播与增长/全渠道分发矩阵/02 公众号运营/糖果厂首次推文.md",
     "01 TGC运营/04 价值传播与增长/全渠道分发矩阵/02 公众号运营/糖果厂二次推文（陈荣+邓鹏）.md",
     "01 TGC运营/04 价值传播与增长/全渠道分发矩阵/02 公众号运营/糖果厂人物特写-陈荣老师.md",
@@ -313,7 +303,6 @@
     "copilot/copilot-conversations",
     "copilot/copilot-custom-prompts",
     "copilot",
-    "01 TGC运营/04 价值传播与增长/全渠道分发矩阵/03 视频号运营/未确认 232371.crdownload",
-    "01 TGC运营/04 价值传播与增长/全渠道分发矩阵/02 公众号运营/糖果厂二次推文"
+    "01 TGC运营/04 价值传播与增长/全渠道分发矩阵/03 视频号运营/未确认 232371.crdownload"
   ]
 }
