@@ -162,12 +162,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01 TGC运营/TGC运营规划.md",
+                "file": "01 TGC运营/TGC运营×AI/第一次总结.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "TGC运营规划 的出链列表"
+              "title": "第一次总结 的出链列表"
             }
           },
           {
@@ -234,7 +234,8 @@
               "title": "Copilot"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -258,18 +259,18 @@
   },
   "active": "5c2d7ffc60e1c5c5",
   "lastOpenFiles": [
-    "01 TGC运营/04 价值传播与增长/素材收集/陈荣老师采访视频/陈荣老师_完整文字稿_v2.md",
+    "Pasted image 20260529103443.png",
+    "Pasted image 20260529103512.png",
+    "Pasted image 20260529103555.png",
+    "Pasted image 20260529103538.png",
     "01 TGC运营/TGC运营×AI/第一次总结.md",
+    "01 TGC运营/04 价值传播与增长/素材收集/陈荣老师采访视频/陈荣老师_完整文字稿_v2.md",
     "[[.md",
     "Pasted image 20260529103210.png",
     "Pasted image 20260529103306.png",
     "Pasted image 20260529103330.png",
-    "Pasted image 20260529103538.png",
-    "Pasted image 20260529103555.png",
     "01 TGC运营/04 价值传播与增长/全渠道分发矩阵/03 视频号运营/讲师访谈·科学录制与高效剪辑操作手册.md",
-    "Pasted image 20260529103512.png",
     "02 OKR/2026-OKR-模块.md",
-    "Pasted image 20260529103443.png",
     "Pasted image 20260529103318.png",
     "01 TGC运营/TGC运营规划.md",
     "02 OKR/2026-OKR-O2.md",
@@ -298,7 +299,6 @@
     "copilot/copilot-conversations/你好@20260528_151547.md",
     "copilot/copilot-conversations/帮我评价一下这篇推文@20260528_134353.md",
     "copilot/copilot-conversations",
-    "copilot/copilot-custom-prompts/Clip Web Page.md",
     "copilot/copilot-custom-prompts",
     "copilot",
     "01 TGC运营/04 价值传播与增长/全渠道分发矩阵/03 视频号运营/未确认 232371.crdownload",
