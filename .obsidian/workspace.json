@@ -11,10 +11,14 @@
             "id": "c6820dc7203b9919",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "关系图谱"
+              "type": "markdown",
+              "state": {
+                "file": "03 工作总结/02 周报/5月29日例会.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "5月29日例会"
             }
           }
         ]
@@ -90,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "03 工作总结/02 周报/5月29日例会.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +104,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "反向链接"
+              "title": "5月29日例会 的反向链接列表"
             }
           },
           {
@@ -108,11 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "03 工作总结/02 周报/5月29日例会.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "出链"
+              "title": "5月29日例会 的出链列表"
             }
           },
           {
@@ -204,15 +210,15 @@
   },
   "active": "c6820dc7203b9919",
   "lastOpenFiles": [
+    "04 日常学习/变革快讯燕儿姐解读.md",
+    "04 日常学习/NO.008 变革快讯.md",
+    "04 日常学习/NO.009 培训业务变革与AI应用规划研讨会纪要.md",
     "copilot/copilot-custom-prompts/未命名 1.base",
     "01 TGC运营/TGC运营×AI/第一次总结.md",
     "01 TGC运营/04 价值传播与增长/素材收集/TGC讲师访谈素材索引.md",
     "01 TGC运营/04 价值传播与增长/素材收集/TGC·糖果厂案例内容/01_一次业主投诉引发的服务模式创新与改革.md",
     "01 TGC运营/04 价值传播与增长/素材收集/讲师访谈结构化摘要.md",
-    "04 日常学习/NO. 009 培训业务变革与AI应用规划研讨会纪要.md",
     "copilot/copilot-conversations/你好@20260528_151547.md",
-    "04 日常学习/变革快讯燕儿姐解读.md",
-    "04 日常学习/NO.008 变革快讯.md",
     "03 工作总结/02 周报/5月29日例会.md",
     "04 日常学习/附件/Pasted image 20260529140721.png",
     "04 日常学习/附件/Pasted image 20260529135905.png",
