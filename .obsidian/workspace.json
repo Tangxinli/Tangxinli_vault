@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "9e0a3880e2d2fbfa",
+        "id": "1b68e7e3faca6a0a",
         "type": "tabs",
         "children": [
           {
-            "id": "97835cb9cd051ab6",
+            "id": "c6820dc7203b9919",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -209,12 +209,13 @@
       "obsidian-custom-frames:Open 豆包": false
     }
   },
-  "active": "97835cb9cd051ab6",
+  "active": "c6820dc7203b9919",
   "lastOpenFiles": [
-    "04 日常学习/NO.008 变革快讯.md",
+    "copilot/copilot-conversations/你好@20260528_151547.md",
     "04 日常学习/NO. 009 培训业务变革与AI应用规划研讨会纪要.md",
-    "03 工作总结/02 周报/5月29日例会.md",
     "04 日常学习/变革快讯燕儿姐解读.md",
+    "04 日常学习/NO.008 变革快讯.md",
+    "03 工作总结/02 周报/5月29日例会.md",
     "04 日常学习/附件/Pasted image 20260529140721.png",
     "04 日常学习/附件/Pasted image 20260529135905.png",
     "04 日常学习/附件",
@@ -253,7 +254,6 @@
     "04 日常学习/大S的一封信/TGC讲师叙事机制汇报.pptx",
     "01 TGC运营/TGC运营×AI",
     "01 TGC运营/04 价值传播与增长/全渠道分发矩阵/02 公众号运营/糖果厂首次推文.md",
-    "01 TGC运营/04 价值传播与增长/全渠道分发矩阵/02 公众号运营/糖果厂二次推文（陈荣+邓鹏）.md",
     "copilot/copilot-custom-prompts/未命名.base",
     "copilot/copilot-custom-prompts/未命名 1.base",
     "copilot/copilot-conversations"
