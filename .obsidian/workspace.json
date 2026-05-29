@@ -11,14 +11,12 @@
             "id": "97835cb9cd051ab6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "01 TGC运营/TGC运营×AI/第一次总结.md",
-                "mode": "source",
-                "source": false
+                "file": "04 日常学习/附件/Pasted image 20260529135905.png"
               },
-              "icon": "lucide-file",
-              "title": "第一次总结"
+              "icon": "lucide-image",
+              "title": "Pasted image 20260529135905"
             }
           }
         ]
@@ -210,8 +208,12 @@
   },
   "active": "97835cb9cd051ab6",
   "lastOpenFiles": [
-    "03 工作总结/02 周报/5月29日例会.md",
+    "04 日常学习/TD.md",
+    "04 日常学习/附件/Pasted image 20260529135905.png",
+    "04 日常学习/附件",
+    "未命名.md",
     "01 TGC运营/TGC运营×AI/第一次总结.md",
+    "03 工作总结/02 周报/5月29日例会.md",
     "01 TGC运营/02 讲师生产与供给/TGC糖果厂-投稿指南.md",
     "01 TGC运营/04 价值传播与增长/素材收集/陈荣老师采访视频/陈荣老师_完整文字稿_v2.md",
     "01 TGC运营/04 价值传播与增长/素材收集/TGC讲师访谈素材索引.md",
@@ -234,7 +236,6 @@
     "Pasted image 20260529103318.png",
     "01 TGC运营/00 TGC运营规划",
     "Pasted image 20260529103330.png",
-    "Pasted image 20260529103210.png",
     "[[.md",
     "02 OKR/2026-OKR-模块.md",
     "02 OKR/2026-OKR-O2.md",
@@ -249,12 +250,8 @@
     "01 TGC运营/04 价值传播与增长/全渠道分发矩阵/02 公众号运营/糖果厂首次推文.md",
     "01 TGC运营/04 价值传播与增长/全渠道分发矩阵/02 公众号运营/糖果厂二次推文（陈荣+邓鹏）.md",
     "01 TGC运营/04 价值传播与增长/全渠道分发矩阵/02 公众号运营/糖果厂人物特写-陈荣老师.md",
-    "未命名.md",
-    "糖果厂第二周运营策略.md",
-    "01 TGC运营/TGC运营规划 1.md",
     "copilot/copilot-custom-prompts/未命名.base",
     "copilot/copilot-custom-prompts/未命名 1.base",
-    "copilot/copilot-conversations",
-    "copilot/copilot-custom-prompts"
+    "copilot/copilot-conversations"
   ]
 }
