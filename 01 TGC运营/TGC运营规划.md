@@ -3,7 +3,10 @@
 > 花桥讲师成长营（Teacher Growth Camp）运营规划
 
 ---
-
+## TGC运营规划/图片
+![[Pasted image 20260529103210.png]]
+![[Pasted image 20260529103306.png]]
+![[Pasted image 20260529103330.png]]
 ## 项目概述
 
 ### 1+3N核心问题
