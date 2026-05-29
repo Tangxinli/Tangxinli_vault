@@ -4,7 +4,7 @@
 
 ---
 ## TGC运营规划/图片
-![[附件/Pasted image 20260529112734.png]]
+![[附件/Pasted image 20260529112734.png|697]]
 ![[附件/Pasted image 20260529112747.png]]
 ![[附件/Pasted image 20260529112759.png]]
 ## 项目概述
