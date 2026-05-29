@@ -200,7 +200,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 578.5
+    "width": 578.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -220,6 +221,8 @@
   },
   "active": "bdf9ed2fa4068e12",
   "lastOpenFiles": [
+    "03 工作总结/02 周报/附件/企业微信截图_29a49245-9429-46c9-b429-57aba5990d71.png",
+    "03 工作总结/02 周报/附件",
     "01 TGC运营/00 TGC运营规划/TGC运营规划.md",
     "01 TGC运营/00 TGC运营规划/附件/Pasted image 20260529112759.png",
     "01 TGC运营/00 TGC运营规划/附件/Pasted image 20260529112747.png",
@@ -263,7 +266,6 @@
     "01 TGC运营/04 价值传播与增长/全渠道分发矩阵/01 运营策略/糖果厂第二周运营策略-2.md",
     "01 TGC运营/04 价值传播与增长/全渠道分发矩阵/01 运营策略/糖果厂第二周运营策略-1.md",
     "copilot/copilot-conversations",
-    "copilot/copilot-custom-prompts",
-    "copilot"
+    "copilot/copilot-custom-prompts"
   ]
 }
