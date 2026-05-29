@@ -6,7 +6,6 @@
       {
         "id": "9e0a3880e2d2fbfa",
         "type": "tabs",
-        "dimension": 72.99270072992701,
         "children": [
           {
             "id": "97835cb9cd051ab6",
@@ -14,29 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03 工作总结/02 周报/5月29日例会.md",
+                "file": "01 TGC运营/TGC运营×AI/第一次总结.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5月29日例会"
-            }
-          }
-        ]
-      },
-      {
-        "id": "b718a507458bc322",
-        "type": "tabs",
-        "dimension": 27.00729927007299,
-        "children": [
-          {
-            "id": "f3156277ecfc06c2",
-            "type": "leaf",
-            "state": {
-              "type": "custom-frames-豆包",
-              "state": {},
-              "icon": "lucide-bot",
-              "title": "豆包"
+              "title": "第一次总结"
             }
           }
         ]
@@ -96,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 285.5
   },
   "right": {
     "id": "827727ebe6a266e8",
@@ -228,9 +210,9 @@
   },
   "active": "97835cb9cd051ab6",
   "lastOpenFiles": [
+    "03 工作总结/02 周报/5月29日例会.md",
     "01 TGC运营/TGC运营×AI/第一次总结.md",
     "01 TGC运营/02 讲师生产与供给/TGC糖果厂-投稿指南.md",
-    "03 工作总结/02 周报/5月29日例会.md",
     "01 TGC运营/04 价值传播与增长/素材收集/陈荣老师采访视频/陈荣老师_完整文字稿_v2.md",
     "01 TGC运营/04 价值传播与增长/素材收集/TGC讲师访谈素材索引.md",
     "01 TGC运营/04 价值传播与增长/素材收集/讲师访谈结构化摘要.md",
