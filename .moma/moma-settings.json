@@ -1,6 +1,6 @@
 {
   "userName": "",
-  "onesToken": "",
+  "onesToken": "sk-86RwZj-aDUMJlIiZQPys_A",
   "permissionMode": "yolo",
   "model": "haiku",
   "thinkingBudget": "off",
@@ -20,7 +20,7 @@
     "scrollDownKey": "s",
     "focusInputKey": "i"
   },
-  "locale": "en",
+  "locale": "zh-CN",
   "providerConfigs": {
     "claude": {
       "safeMode": "acceptEdits",
@@ -53,15 +53,15 @@
   },
   "integrationConfigs": {
     "lark": {
-      "enabled": false,
+      "enabled": true,
       "cliPath": "",
       "cliPathsByHost": {},
       "installMode": "system",
       "managedVersion": "",
-      "lastKnownVersion": "",
+      "lastKnownVersion": "1.0.45",
       "preferredIdentity": "user",
       "grantedScopes": [],
-      "lastStatus": "disabled"
+      "lastStatus": "ready"
     }
   },
   "settingsProvider": "claude",
@@ -78,7 +78,7 @@
   "lastCustomModel": "",
   "backendEnv": "prod",
   "autoUpdate": true,
-  "maxTabs": 3,
+  "maxTabs": 5,
   "tabBarPosition": "input",
   "enableAutoScroll": true,
   "chatViewPlacement": "right-sidebar",
@@ -89,7 +89,8 @@
       "cliPath": "",
       "defaultConversationId": "",
       "defaultParentFolderId": "",
-      "identity": "user"
+      "identity": "user",
+      "autoInstallAttemptedAt": "2026-06-02T11:53:32.592Z"
     },
     "lark": {
       "enabled": false,
@@ -103,7 +104,8 @@
       "cliPath": "",
       "defaultConversationId": "",
       "defaultParentFolderId": "",
-      "identity": "user"
+      "identity": "user",
+      "autoInstallAttemptedAt": "2026-06-02T11:53:37.111Z"
     },
     "strictMarkdown": false
   },

@@ -1,0 +1,23 @@
+{
+  "id": "conv-1780401479377-6rfag5xv1",
+  "providerId": "claude",
+  "title": "Install ima skills package from provided URL",
+  "titleGenerationStatus": "success",
+  "createdAt": 1780401479380,
+  "updatedAt": 1780402392437,
+  "lastResponseAt": 1780401623191,
+  "sessionId": "056b4f35-7003-42fd-bd4e-9f39edce68b8",
+  "providerState": {
+    "providerSessionId": "056b4f35-7003-42fd-bd4e-9f39edce68b8"
+  },
+  "usage": {
+    "model": "haiku",
+    "inputTokens": 0,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 0,
+    "percentage": 0,
+    "contextWindowIsAuthoritative": true
+  }
+}

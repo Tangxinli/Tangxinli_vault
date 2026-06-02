@@ -2,7 +2,10 @@
   "mcpServers": {
     "web-search": {
       "type": "http",
-      "url": "https://next.ke.com/ob/api/v1/mcp/zhipu-web-search"
+      "url": "https://next.ke.com/ob/api/v1/mcp/zhipu-web-search",
+      "headers": {
+        "Authorization": "Bearer sk-86RwZj-aDUMJlIiZQPys_A"
+      }
     }
   },
   "_moma": {

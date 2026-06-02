@@ -1,0 +1,23 @@
+{
+  "id": "conv-1780401628403-z9s9e8u13",
+  "providerId": "claude",
+  "title": "梳理飞书内容框架",
+  "titleGenerationStatus": "success",
+  "createdAt": 1780401628403,
+  "updatedAt": 1780402393417,
+  "lastResponseAt": 1780401889528,
+  "sessionId": "5c00c22f-9013-4656-9cf6-2a422b0f2a53",
+  "providerState": {
+    "providerSessionId": "5c00c22f-9013-4656-9cf6-2a422b0f2a53"
+  },
+  "usage": {
+    "model": "haiku",
+    "inputTokens": 0,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 0,
+    "percentage": 0,
+    "contextWindowIsAuthoritative": true
+  }
+}
