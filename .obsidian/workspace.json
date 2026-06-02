@@ -39,13 +39,14 @@
             "id": "4c354801c9b93a13",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "copilot/copilot-custom-prompts/未命名 1.base",
-                "viewName": "表格"
+                "file": "05 4×7/研讨/第一次研讨/4x7团队_性格优势分析与三层分工建议.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-table",
-              "title": "未命名 1"
+              "icon": "lucide-file",
+              "title": "4x7团队_性格优势分析与三层分工建议"
             }
           }
         ],
@@ -236,9 +237,10 @@
       "obsidian-custom-frames:Open 豆包": false
     }
   },
-  "active": "e44d7ee056d8c80d",
+  "active": "4c354801c9b93a13",
   "lastOpenFiles": [
     "06 个人/自我测评-佑佐未来优势力报告.md",
+    "copilot/copilot-custom-prompts/未命名 1.base",
     "05 4×7/研讨/第一次研讨/4x7团队_性格优势分析与三层分工建议.md",
     "06 个人",
     "05 4×7/研讨/第一次研讨/第一视角_4x7脑暴会复盘与方案优化建议.md",
@@ -256,7 +258,6 @@
     "01 TGC运营/04 价值传播与增长/素材收集/邓鹏老师采访视频/邓鹏老师_完整文字稿_v2.md",
     "01 TGC运营/04 价值传播与增长/素材收集/邓鹏老师采访视频/邓鹏老师_访谈内容段落梳理.md",
     "01 TGC运营/04 价值传播与增长/素材收集/陈荣老师采访视频/陈荣老师_完整文字稿_v2.md",
-    "copilot/copilot-custom-prompts/未命名 1.base",
     "attachments/0526_培训座谈_PO会后核心任务.png.md",
     "copilot/copilot-custom-prompts/未命名.base",
     "未命名.canvas",
@@ -267,7 +268,6 @@
     "copilot/copilot-custom-prompts/Explain like I am 5.md",
     "copilot/copilot-custom-prompts/Fix grammar and spelling.md",
     "copilot/copilot-custom-prompts/Generate glossary.md",
-    "copilot/copilot-custom-prompts/Generate table of contents.md",
     "05 4×7/研讨/第一次研讨",
     "04 日常学习/研讨",
     "05 4×7/研讨",
