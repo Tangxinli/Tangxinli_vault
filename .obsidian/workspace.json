@@ -66,8 +66,8 @@
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
+                  "collapseAll": true,
+                  "extraContext": true,
                   "sortOrder": "alphabetical",
                   "showSearch": false,
                   "searchQuery": "",
@@ -153,7 +153,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "04 日常学习/附件/客户视角下的服务流程重塑.png",
+                "file": "04 日常学习/姑姑内容/以客户为中心-徐东华.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +163,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "客户视角下的服务流程重塑 的反向链接列表"
+              "title": "以客户为中心-徐东华 的反向链接列表"
             }
           },
           {
@@ -172,12 +172,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "04 日常学习/附件/客户视角下的服务流程重塑.png",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": false
+                "file": "04 日常学习/姑姑内容/以客户为中心-徐东华.md",
+                "linksCollapsed": true,
+                "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "客户视角下的服务流程重塑 的出链列表"
+              "title": "以客户为中心-徐东华 的出链列表"
             }
           },
           {
@@ -255,12 +255,11 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 578.5,
-    "collapsed": true
+    "width": 578.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -279,7 +278,7 @@
       "obsidian-custom-frames:Open 豆包": false
     }
   },
-  "active": "c18b5c83066e4a49",
+  "active": "270f5f533f8e5982",
   "lastOpenFiles": [
     "04 日常学习/ML客户及业主服务的7个流程.md",
     "04 日常学习/姑姑内容/以客户为中心-徐东华.md",
