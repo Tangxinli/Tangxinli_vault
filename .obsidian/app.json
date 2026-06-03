@@ -9,5 +9,6 @@
   },
   "attachmentFolderPath": "./附件",
   "newLinkFormat": "relative",
-  "promptDelete": false
+  "promptDelete": false,
+  "showUnsupportedFiles": true
 }
