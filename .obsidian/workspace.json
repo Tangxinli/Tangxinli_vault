@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "04 日常学习/姑姑内容/以客户为中心-徐东华.md",
+                "file": "01 TGC运营/04 价值传播与增长/全渠道分发矩阵/03 视频号运营/邓鹏老师_视频号运营策略.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "以客户为中心-徐东华"
+              "title": "邓鹏老师_视频号运营策略"
             }
           }
         ],
@@ -153,7 +153,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "04 日常学习/姑姑内容/以客户为中心-徐东华.md",
+                "file": "01 TGC运营/04 价值传播与增长/全渠道分发矩阵/03 视频号运营/邓鹏老师_视频号运营策略.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +163,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "以客户为中心-徐东华 的反向链接列表"
+              "title": "邓鹏老师_视频号运营策略 的反向链接列表"
             }
           },
           {
@@ -172,12 +172,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "04 日常学习/姑姑内容/以客户为中心-徐东华.md",
+                "file": "01 TGC运营/04 价值传播与增长/全渠道分发矩阵/03 视频号运营/邓鹏老师_视频号运营策略.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "以客户为中心-徐东华 的出链列表"
+              "title": "邓鹏老师_视频号运营策略 的出链列表"
             }
           },
           {
@@ -259,7 +259,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 578.5
+    "width": 578.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -278,10 +279,10 @@
       "obsidian-custom-frames:Open 豆包": false
     }
   },
-  "active": "270f5f533f8e5982",
+  "active": "c18b5c83066e4a49",
   "lastOpenFiles": [
-    "04 日常学习/ML客户及业主服务的7个流程.md",
     "04 日常学习/姑姑内容/以客户为中心-徐东华.md",
+    "04 日常学习/ML客户及业主服务的7个流程.md",
     "04 日常学习/姑姑内容",
     "04 日常学习/大S战略会议/变革快讯燕儿姐解读.md",
     "04 日常学习/大S战略会议/NO.008 变革快讯.md",
