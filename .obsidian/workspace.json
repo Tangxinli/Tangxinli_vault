@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "05 4×7/研讨/第一次研讨/4x7团队_性格优势分析与三层分工建议.md",
+                "file": "05 4×7/研讨/第一次研讨/第一视角_4x7脑暴会复盘与方案优化建议.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -24,11 +24,11 @@
                   "showSearch": false,
                   "searchQuery": "",
                   "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
+                  "unlinkedCollapsed": false
                 }
               },
               "icon": "lucide-file",
-              "title": "4x7团队_性格优势分析与三层分工建议"
+              "title": "第一视角_4x7脑暴会复盘与方案优化建议"
             }
           }
         ]
@@ -104,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01 TGC运营/04 价值传播与增长/全渠道分发矩阵/03 视频号运营/邓鹏老师_视频号运营策略.md",
+                "file": "05 4×7/研讨/第一次研讨/第一视角_4x7脑暴会复盘与方案优化建议.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "邓鹏老师_视频号运营策略 的反向链接列表"
+              "title": "第一视角_4x7脑暴会复盘与方案优化建议 的反向链接列表"
             }
           },
           {
@@ -123,12 +123,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "03 工作总结/02 周报/5月29日例会.md",
+                "file": "05 4×7/研讨/第一次研讨/第一视角_4x7脑暴会复盘与方案优化建议.md",
                 "linksCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "5月29日例会 的出链列表"
+              "title": "第一视角_4x7脑暴会复盘与方案优化建议 的出链列表"
             }
           },
           {
@@ -205,12 +205,12 @@
               "title": "Moma"
             }
           }
-        ],
-        "currentTab": 7
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 578.5
+    "width": 578.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -231,10 +231,11 @@
   },
   "active": "c6820dc7203b9919",
   "lastOpenFiles": [
-    "05 4×7/研讨/智能纪要：经纪人培训赋能流程解析 2026年6月2日.md",
     "05 4×7/研讨/第一次研讨/第三视角_能力矩阵脑暴会-会议纪要.md",
+    "05 4×7/方案/4x7落地方案_花桥讲师发展_v0.1.md",
     "05 4×7/研讨/第一次研讨/第一视角_4x7脑暴会复盘与方案优化建议.md",
     "05 4×7/研讨/第一次研讨/4x7团队_性格优势分析与三层分工建议.md",
+    "05 4×7/研讨/智能纪要：经纪人培训赋能流程解析 2026年6月2日.md",
     "06 个人/自我测评-佑佐未来优势力报告.md",
     "copilot/copilot-custom-prompts/未命名 1.base",
     "06 个人",
@@ -260,7 +261,6 @@
     "copilot/copilot-custom-prompts/Emojify.md",
     "copilot/copilot-custom-prompts/Explain like I am 5.md",
     "copilot/copilot-custom-prompts/Fix grammar and spelling.md",
-    "copilot/copilot-custom-prompts/Generate glossary.md",
     "05 4×7/研讨/第一次研讨",
     "04 日常学习/研讨",
     "05 4×7/研讨",
