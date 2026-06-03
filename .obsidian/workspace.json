@@ -24,7 +24,7 @@
                   "showSearch": false,
                   "searchQuery": "",
                   "backlinkCollapsed": false,
-                  "unlinkedCollapsed": false
+                  "unlinkedCollapsed": true
                 }
               },
               "icon": "lucide-file",
@@ -232,8 +232,8 @@
   },
   "active": "c6820dc7203b9919",
   "lastOpenFiles": [
-    "05 4×7/研讨/第一次研讨/源资料：经纪人培训赋能流程解析 2026年6月2日.md",
     "05 4×7/方案/4x7_全面理解与定义.md",
+    "05 4×7/研讨/第一次研讨/源资料：经纪人培训赋能流程解析 2026年6月2日.md",
     "05 4×7/研讨/第一次研讨/第一视角_4x7脑暴会复盘与方案优化建议.md",
     "05 4×7/方案/4x7落地方案_花桥讲师发展_v0.1.md",
     "05 4×7/研讨/第一次研讨/第三视角_能力矩阵脑暴会-会议纪要.md",
