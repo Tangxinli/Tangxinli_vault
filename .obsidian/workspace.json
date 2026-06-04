@@ -88,7 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 464.5
+    "width": 200
   },
   "right": {
     "id": "827727ebe6a266e8",
@@ -210,7 +210,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 578.5
+    "width": 578.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -229,7 +230,7 @@
       "obsidian-custom-frames:Open 豆包": false
     }
   },
-  "active": "aed0162ba98abefc",
+  "active": "e44d7ee056d8c80d",
   "lastOpenFiles": [
     "06 能力成长/萃取能力/主访谈人专业点评_唐文莉.md",
     "07 北链项目/讲师信息/王东方.md",
