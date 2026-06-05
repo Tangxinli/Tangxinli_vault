@@ -84,7 +84,8 @@
               "title": "书签"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -230,7 +231,7 @@
       "obsidian-custom-frames:Open 豆包": false
     }
   },
-  "active": "aed0162ba98abefc",
+  "active": "48b066ea0d01858f",
   "lastOpenFiles": [
     "03 工作总结/02 周报/附件/企业微信截图_aa216079-9d60-43d9-a3b5-5ee6972dfe5f.png",
     "03 工作总结/02 周报/5月29日例会.md",
