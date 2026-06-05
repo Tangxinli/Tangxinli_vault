@@ -11,10 +11,24 @@
             "id": "8f226eeb0a5277f9",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "01 收进来 Raw/02 项目资料/003 北链项目/讲师信息/王东方.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "王东方"
             }
           }
         ]
@@ -215,9 +229,10 @@
       "obsidian-custom-frames:Open 豆包": false
     }
   },
-  "active": "8f226eeb0a5277f9",
+  "active": "e44d7ee056d8c80d",
   "lastOpenFiles": [
-    "01 收进来 Raw/02 项目资料/002 4×7项目/录音资料/共创讨论-金燕-6.5.m4a",
+    "01 收进来 Raw/02 项目资料/003 北链项目/讲师信息/卢彦康.md",
+    "01 收进来 Raw/02 项目资料/002 4×7项目/录音资料/6.5-共创讨论-金燕.m4a",
     "00 关于我/当前主线.md",
     "01 收进来 Raw/02 项目资料/002 4×7项目/录音资料",
     "02 Wiki AI编译层/02 判断候选/判断候选索引.md",
@@ -237,9 +252,9 @@
     "03 Projects 我的项目/001 TGC运营",
     "02 Wiki AI编译层/00 Raw索引.md",
     "01 收进来 Raw/03 录音资料/20260509161223-转写_唐文莉(糖心莉)的快速会议-逐字稿文本-1.docx",
-    "01 收进来 Raw/03 录音资料/4x7能力矩阵脑暴会-逐字稿文本.txt",
+    "01 收进来 Raw/02 项目资料/002 4×7项目/录音资料/6.2-能力矩阵脑暴会-金燕+邓鹏+瓜瓜+文莉-6.2.txt",
     "01 收进来 Raw/02 项目资料/002 4×7项目/录音资料/讲师访谈-卢彦康-6.4.txt",
-    "01 收进来 Raw/03 录音资料/卢彦康访谈.txt",
+    "01 收进来 Raw/03 录音资料/6.4-讲师访谈-卢彦康.txt",
     "02 Wiki AI编译层/05 编译日志/编译日志.md",
     "01 收进来 Raw/02 项目资料/002 4×7项目/参考资料：大S专业服务/经纪人服务-2D水位标尺.md",
     "01 收进来 Raw/01 组织背景/20260423-S闭门会分享-全员发布版.md",
