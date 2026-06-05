@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 收进来 Raw/02 项目资料/003 北链项目/讲师信息/王东方.md",
+                "file": "01 收进来 Raw/02 项目资料/002 4×7项目/04 参考资料/大S 专业服务/经纪人服务-2D水位标尺.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,10 +28,59 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "王东方"
+              "title": "经纪人服务-2D水位标尺"
+            }
+          },
+          {
+            "id": "38b637778ff7b134",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01 收进来 Raw/02 项目资料/002 4×7项目/04 参考资料/大S 专业服务/经纪人服务-完成态判断与路径.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "经纪人服务-完成态判断与路径"
+            }
+          },
+          {
+            "id": "c9e22048dc8f1e2d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01 收进来 Raw/02 项目资料/002 4×7项目/04 参考资料/大S 专业服务/经纪人服务-2D水位标尺.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "经纪人服务-2D水位标尺"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -231,7 +280,11 @@
   },
   "active": "e44d7ee056d8c80d",
   "lastOpenFiles": [
-    "01 收进来 Raw/02 项目资料/002 4×7项目/04 参考资料/未命名",
+    "01 收进来 Raw/02 项目资料/002 4×7项目/04 参考资料/大S 专业服务/经纪人服务-能力全貌四层结构.md",
+    "01 收进来 Raw/02 项目资料/002 4×7项目/04 参考资料/大S 专业服务/经纪人服务-完成态判断与路径.md",
+    "01 收进来 Raw/02 项目资料/002 4×7项目/04 参考资料/大S 专业服务/经纪人服务-2D水位标尺.md",
+    "01 收进来 Raw/02 项目资料/003 北链项目/讲师信息/王东方.md",
+    "01 收进来 Raw/02 项目资料/002 4×7项目/04 参考资料/大S 专业服务",
     "01 收进来 Raw/03 录音资料/~$20-TGC访谈-李明熹.docx",
     "01 收进来 Raw/03 录音资料/~$260509161223-转写_唐文莉(糖心莉)的快速会议-逐字稿文本-1.docx",
     "01 收进来 Raw/02 项目资料/003 北链项目/讲师访谈",
@@ -255,9 +308,7 @@
     "03 Projects 我的项目/002 4×7项目",
     "03 Projects 我的项目/001 TGC运营",
     "02 Wiki AI编译层/00 Raw索引.md",
-    "01 收进来 Raw/03 录音资料/5.20-TGC访谈-李明熹.docx",
     "02 Wiki AI编译层/05 编译日志/编译日志.md",
-    "01 收进来 Raw/02 项目资料/002 4×7项目/04 参考资料/经纪人服务-2D水位标尺.md",
     "01 收进来 Raw/01 组织背景/20260423-S闭门会分享-全员发布版.md",
     "01 收进来 Raw/01 组织背景/20260224-S寄语贝壳的小伙伴们-坚持做难而正确的事.md",
     "01 收进来 Raw/01 组织背景/20260329-S贝壳的下一个阶段-以消费者为中心重建组织.md",
@@ -265,8 +316,6 @@
     "04 Outputs 输出成果/输出索引.md",
     "01 收进来 Raw/05 个人资料/006 述职材料/2025-Q4 述职报告-唐文莉.md",
     "01 收进来 Raw/05 个人资料/006 述职材料/2025-Q2 述职总结-唐文莉.md",
-    "01 收进来 Raw/05 个人资料/006 述职材料/2024-Q4 述职总结-唐文莉.md",
-    "01 收进来 Raw/05 个人资料/001 身体健康/2025年体检报告.md",
     "01 收进来 Raw/05 个人资料/007 日常总结/02 周报/附件/企业微信截图_aa216079-9d60-43d9-a3b5-5ee6972dfe5f.png",
     "03 工作总结/02 周报/附件/MOMA数据.png",
     "01 收进来 Raw/05 个人资料/004 日常学习/附件/客户视角下的服务流程重塑.png",
