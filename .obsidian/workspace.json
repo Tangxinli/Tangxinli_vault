@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03 项目类/002 4×7项目/参考资料：大S专业服务/经纪人服务-2D水位标尺.md",
+                "file": "02 Wiki AI编译层/01 主题页/主题索引.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,131 +28,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "经纪人服务-2D水位标尺"
-            }
-          },
-          {
-            "id": "a3d31f9a1c4203d4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "03 项目类/002 4×7项目/参考资料：大S专业服务/经纪人服务-完成态判断与路径.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "经纪人服务-完成态判断与路径"
-            }
-          },
-          {
-            "id": "96e16a4850b7a200",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01 收进来 Raw/01 组织背景/20260224-S寄语贝壳的小伙伴们-坚持做难而正确的事.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "20260224-S寄语贝壳的小伙伴们-坚持做难而正确的事"
-            }
-          },
-          {
-            "id": "44486e878b7c0ab1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01 收进来 Raw/01 组织背景/20260423-S闭门会分享-全员发布版.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "20260423-S闭门会分享-全员发布版"
-            }
-          },
-          {
-            "id": "713406e8a53ca6f5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01 收进来 Raw/01 组织背景/20260329-S贝壳的下一个阶段-以消费者为中心重建组织.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "20260329-S贝壳的下一个阶段-以消费者为中心重建组织"
-            }
-          },
-          {
-            "id": "8b8f8170cde95040",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00 关于我/关于我.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "关于我"
+              "title": "主题索引"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -350,10 +229,16 @@
       "obsidian-custom-frames:Open 豆包": false
     }
   },
-  "active": "8b8f8170cde95040",
+  "active": "aed0162ba98abefc",
   "lastOpenFiles": [
-    "00 关于我/当前主线.md",
+    "03 项目类/002 4×7项目/参考资料：大S专业服务/经纪人服务-2D水位标尺.md",
+    "02 Wiki AI编译层/04 项目背景/项目背景索引.md",
+    "02 Wiki AI编译层/03 人物组织/人物组织索引.md",
+    "02 Wiki AI编译层/02 判断候选/判断候选索引.md",
+    "02 Wiki AI编译层/01 主题页/主题索引.md",
+    "02 Wiki AI编译层/00 Raw索引.md",
     "00 关于我/关于我.md",
+    "00 关于我/当前主线.md",
     "01 收进来 Raw/01 组织背景/20260423-S闭门会分享-全员发布版.md",
     "01 收进来 Raw/01 组织背景/20260224-S寄语贝壳的小伙伴们-坚持做难而正确的事.md",
     "01 收进来 Raw/01 组织背景/20260329-S贝壳的下一个阶段-以消费者为中心重建组织.md",
@@ -367,7 +252,6 @@
     "04 Outputs 输出成果/输出索引.md",
     "04 Outputs 输出成果/输出索引.md.tmp.31180.f744354b1067",
     "02 Wiki AI编译层/05 编译日志/编译日志.md",
-    "02 Wiki AI编译层/00 Raw索引.md",
     "00 关于我/关于我.md.tmp.31180.dd0641f0e7f3",
     "04 Outputs 输出成果",
     "03 Projects 我的项目",
@@ -382,11 +266,7 @@
     "03 项目类/002 4×7项目/参考资料：大S专业服务/经纪人服务-4x7矩阵展开.md",
     "个人类/未命名.md",
     "03 项目类/002 4×7项目/参考资料：大S专业服务/经纪人服务-3D时间幅度.md",
-    "03 项目类/002 4×7项目/参考资料：大S专业服务/经纪人服务-2D水位标尺.md",
     "K105-专业服务.md",
-    "03 项目类/002 4×7项目/参考资料：大S专业服务/经纪人服务-能力全貌四层结构.md",
-    "03 项目类/002 4×7项目/01 项目理解与规划/4x7_全面理解与定义.md",
-    "03 项目类/002 4×7项目/01 项目理解与规划/4x7落地方案_花桥讲师发展_v0.1.md",
     "02 组织类/003 日常总结/02 周报/附件/企业微信截图_aa216079-9d60-43d9-a3b5-5ee6972dfe5f.png",
     "03 工作总结/02 周报/附件/MOMA数据.png",
     "02 组织类/004 日常学习/附件/客户视角下的服务流程重塑.png",
