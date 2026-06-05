@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "05 日常学习/ML客户及业主服务的7个流程.md",
+                "file": "05 日常学习/大S战略会议/专业服务/经纪人服务-2D水位标尺.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,10 +28,59 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "ML客户及业主服务的7个流程"
+              "title": "经纪人服务-2D水位标尺"
+            }
+          },
+          {
+            "id": "a3d31f9a1c4203d4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "05 日常学习/大S战略会议/专业服务/经纪人服务-完成态判断与路径.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "经纪人服务-完成态判断与路径"
+            }
+          },
+          {
+            "id": "96e16a4850b7a200",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "05 日常学习/大S战略会议/专业服务/经纪人服务-2D水位标尺.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "经纪人服务-2D水位标尺"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -210,7 +259,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 364.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -229,11 +278,16 @@
       "obsidian-custom-frames:Open 豆包": false
     }
   },
-  "active": "aed0162ba98abefc",
+  "active": "96e16a4850b7a200",
   "lastOpenFiles": [
+    "05 日常学习/大S战略会议/专业服务/经纪人服务-4x7矩阵展开.md",
+    "05 日常学习/大S战略会议/专业服务/经纪人服务-3D时间幅度.md",
+    "05 日常学习/大S战略会议/专业服务/经纪人服务-2D水位标尺.md",
+    "05 日常学习/大S战略会议/专业服务/经纪人服务-能力全貌四层结构.md",
+    "05 日常学习/大S战略会议/专业服务/经纪人服务-完成态判断与路径.md",
+    "05 日常学习/ML客户及业主服务的7个流程.md",
     "05 日常学习/~$TGC讲师叙事机制汇报.pptx",
     "05 日常学习/大S战略会议/0526_培训研讨收获总结.md",
-    "05 日常学习/ML客户及业主服务的7个流程.md",
     "05 日常学习/金燕内容/培训研讨-收获反思（金燕）.md",
     "05 日常学习/金燕内容",
     "03 工作总结/02 周报/6月5日例会.md",
@@ -265,10 +319,6 @@
     "05 日常学习/附件/客户视角下的服务流程重塑.png",
     "04 4×7项目/01 项目理解与规划/4x7落地方案_花桥讲师发展_v0.1.md",
     "04 4×7项目/02 项目小组研讨/第一次研讨/第一视角_4x7脑暴会复盘与方案优化建议.md",
-    "04 4×7项目/02 项目小组研讨/第一次研讨/第三视角_能力矩阵脑暴会-会议纪要.md",
-    "04 4×7项目/02 项目小组研讨/第一次研讨/4x7团队_性格优势分析与三层分工建议.md",
-    "01 TGC运营/TGC运营×AI/第一次总结.md",
-    "01 TGC运营/04 价值传播与增长/素材收集/TGC·糖果厂案例内容/02_预算契合 圆满安家：东南片区低价好房，峰回路转终成交.md",
     "未命名.canvas",
     "05 日常学习/附件/业主视角下的服务流程重塑.png",
     "05 日常学习/附件/S直接给过建议todo分人跟进.png",
