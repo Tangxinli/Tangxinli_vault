@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 Wiki AI编译层/01 主题页/主题索引.md",
+                "file": "02 Wiki AI编译层/00 Raw索引.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "主题索引"
+              "title": "00 Raw索引"
             }
           }
         ]
@@ -231,11 +231,12 @@
   },
   "active": "aed0162ba98abefc",
   "lastOpenFiles": [
-    "03 项目类/002 4×7项目/参考资料：大S专业服务/经纪人服务-2D水位标尺.md",
+    "02 Wiki AI编译层/05 编译日志/编译日志.md",
     "02 Wiki AI编译层/04 项目背景/项目背景索引.md",
     "02 Wiki AI编译层/03 人物组织/人物组织索引.md",
     "02 Wiki AI编译层/02 判断候选/判断候选索引.md",
     "02 Wiki AI编译层/01 主题页/主题索引.md",
+    "03 项目类/002 4×7项目/参考资料：大S专业服务/经纪人服务-2D水位标尺.md",
     "02 Wiki AI编译层/00 Raw索引.md",
     "00 关于我/关于我.md",
     "00 关于我/当前主线.md",
@@ -251,7 +252,6 @@
     "CLAUDE.md",
     "04 Outputs 输出成果/输出索引.md",
     "04 Outputs 输出成果/输出索引.md.tmp.31180.f744354b1067",
-    "02 Wiki AI编译层/05 编译日志/编译日志.md",
     "00 关于我/关于我.md.tmp.31180.dd0641f0e7f3",
     "04 Outputs 输出成果",
     "03 Projects 我的项目",
