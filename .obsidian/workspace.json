@@ -4,31 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "1b68e7e3faca6a0a",
+        "id": "56d10c698c3d4000",
         "type": "tabs",
         "children": [
           {
-            "id": "aed0162ba98abefc",
+            "id": "8f226eeb0a5277f9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00 关于我/当前主线.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "当前主线"
+              "title": "新标签页"
             }
           }
         ]
@@ -229,13 +215,14 @@
       "obsidian-custom-frames:Open 豆包": false
     }
   },
-  "active": "e44d7ee056d8c80d",
+  "active": "8f226eeb0a5277f9",
   "lastOpenFiles": [
-    "01 收进来 Raw/03 录音资料/47食堂简短沟通.m4a",
+    "01 收进来 Raw/02 项目资料/002 4×7项目/录音资料/共创讨论-金燕-6.5.m4a",
+    "00 关于我/当前主线.md",
+    "01 收进来 Raw/02 项目资料/002 4×7项目/录音资料",
     "02 Wiki AI编译层/02 判断候选/判断候选索引.md",
     "03 Projects 我的项目/001 TGC运营/TGC运营-项目现场.md",
     "00 关于我/关于我.md",
-    "00 关于我/当前主线.md",
     "CLAUDE.md",
     "03 Projects 我的项目/002 4×7项目/4×7项目-项目现场.md",
     "03 Projects 我的项目/003 北链项目/北链项目-项目现场.md",
@@ -251,15 +238,13 @@
     "02 Wiki AI编译层/00 Raw索引.md",
     "01 收进来 Raw/03 录音资料/20260509161223-转写_唐文莉(糖心莉)的快速会议-逐字稿文本-1.docx",
     "01 收进来 Raw/03 录音资料/4x7能力矩阵脑暴会-逐字稿文本.txt",
-    "01 收进来 Raw/03 录音资料/4×7重庆流程探索.txt",
+    "01 收进来 Raw/02 项目资料/002 4×7项目/录音资料/讲师访谈-卢彦康-6.4.txt",
     "01 收进来 Raw/03 录音资料/卢彦康访谈.txt",
     "02 Wiki AI编译层/05 编译日志/编译日志.md",
     "01 收进来 Raw/02 项目资料/002 4×7项目/参考资料：大S专业服务/经纪人服务-2D水位标尺.md",
     "01 收进来 Raw/01 组织背景/20260423-S闭门会分享-全员发布版.md",
     "01 收进来 Raw/01 组织背景/20260224-S寄语贝壳的小伙伴们-坚持做难而正确的事.md",
     "01 收进来 Raw/01 组织背景/20260329-S贝壳的下一个阶段-以消费者为中心重建组织.md",
-    "CLAUDE.md.tmp.31180.76b32f37c304",
-    "CLAUDE.md.tmp.31180.cf997fb1bf73",
     "01 收进来 Raw/05 个人资料/006 述职材料/2026-Q1 总结及规划-金燕.md",
     "04 Outputs 输出成果/输出索引.md",
     "01 收进来 Raw/05 个人资料/006 述职材料/2025-Q4 述职报告-唐文莉.md",
