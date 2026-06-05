@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03 Projects 我的项目/项目地图.md",
+                "file": "01 收进来 Raw/01 组织背景/20260224-S寄语贝壳的小伙伴们-坚持做难而正确的事.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,11 +76,83 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "项目地图"
+              "title": "20260224-S寄语贝壳的小伙伴们-坚持做难而正确的事"
+            }
+          },
+          {
+            "id": "44486e878b7c0ab1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01 收进来 Raw/01 组织背景/20260423-S闭门会分享-全员发布版.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "20260423-S闭门会分享-全员发布版"
+            }
+          },
+          {
+            "id": "713406e8a53ca6f5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01 收进来 Raw/01 组织背景/20260329-S贝壳的下一个阶段-以消费者为中心重建组织.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "20260329-S贝壳的下一个阶段-以消费者为中心重建组织"
+            }
+          },
+          {
+            "id": "8b8f8170cde95040",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00 关于我/关于我.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "关于我"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -278,36 +350,35 @@
       "obsidian-custom-frames:Open 豆包": false
     }
   },
-  "active": "e44d7ee056d8c80d",
+  "active": "8b8f8170cde95040",
   "lastOpenFiles": [
+    "00 关于我/当前主线.md",
+    "00 关于我/关于我.md",
+    "01 收进来 Raw/01 组织背景/20260423-S闭门会分享-全员发布版.md",
+    "01 收进来 Raw/01 组织背景/20260224-S寄语贝壳的小伙伴们-坚持做难而正确的事.md",
+    "01 收进来 Raw/01 组织背景/20260329-S贝壳的下一个阶段-以消费者为中心重建组织.md",
+    "03 Projects 我的项目/项目地图.md",
     "CLAUDE.md.tmp.31180.76b32f37c304",
     "CLAUDE.md.tmp.31180.cf997fb1bf73",
-    "01 个人类/004 述职材料/2026-Q1 总结及规划-金燕.md",
+    "00 关于我/004 述职材料/2026-Q1 总结及规划-金燕.md",
     "CLAUDE.md.tmp.31180.d2b5469aca5e",
     "CLAUDE.md.tmp.31180.a367583c78d4",
     "CLAUDE.md",
     "04 Outputs 输出成果/输出索引.md",
     "04 Outputs 输出成果/输出索引.md.tmp.31180.f744354b1067",
-    "03 Projects 我的项目/项目地图.md",
     "02 Wiki AI编译层/05 编译日志/编译日志.md",
     "02 Wiki AI编译层/00 Raw索引.md",
-    "00 关于我/当前主线.md",
-    "00 关于我/关于我.md",
     "00 关于我/关于我.md.tmp.31180.dd0641f0e7f3",
     "04 Outputs 输出成果",
     "03 Projects 我的项目",
     "02 Wiki AI编译层/05 编译日志",
     "02 Wiki AI编译层/04 项目背景",
-    "02 Wiki AI编译层/03 人物组织",
-    "02 组织类/001 组织背景/20260224-S寄语贝壳的小伙伴们-坚持做难而正确的事.md",
-    "02 组织类/001 组织背景/20260329-S贝壳的下一个阶段-以消费者为中心重建组织.md",
-    "02 组织类/001 组织背景/20260423-S闭门会分享-全员发布版.md",
-    "01 个人类/004 述职材料/2025-Q4 述职报告-唐文莉.md",
-    "01 个人类/004 述职材料/2025-Q2 述职总结-唐文莉.md",
-    "01 个人类/004 述职材料/2024-Q4 述职总结-唐文莉.md",
-    "01 个人类/004 述职材料/2024-Q2 述职总结-唐文莉.md",
-    "01 个人类/001 身体健康/2025年体检报告.md",
-    "01 个人类/002 简历履历/简历-唐文莉.md",
+    "00 关于我/004 述职材料/2025-Q4 述职报告-唐文莉.md",
+    "00 关于我/004 述职材料/2025-Q2 述职总结-唐文莉.md",
+    "00 关于我/004 述职材料/2024-Q4 述职总结-唐文莉.md",
+    "00 关于我/004 述职材料/2024-Q2 述职总结-唐文莉.md",
+    "00 关于我/001 身体健康/2025年体检报告.md",
+    "00 关于我/002 简历履历/简历-唐文莉.md",
     "03 项目类/002 4×7项目/参考资料：大S专业服务/经纪人服务-4x7矩阵展开.md",
     "个人类/未命名.md",
     "03 项目类/002 4×7项目/参考资料：大S专业服务/经纪人服务-3D时间幅度.md",
