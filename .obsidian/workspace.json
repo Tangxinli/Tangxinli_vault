@@ -11,24 +11,12 @@
             "id": "3a7e7a6bdbaad589",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "audio",
               "state": {
-                "file": "00 关于我/关于我.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "01 收进来 Raw/02 项目资料/4×7项目/03 城市共创/重庆/03 录音资料/6.5-共创讨论-金燕.m4a"
               },
-              "icon": "lucide-file",
-              "title": "关于我"
+              "icon": "lucide-file-audio",
+              "title": "6.5-共创讨论-金燕"
             }
           }
         ]
@@ -232,10 +220,10 @@
   },
   "active": "3a7e7a6bdbaad589",
   "lastOpenFiles": [
+    "00 关于我/关于我.md",
     "01 收进来 Raw/03 个人资料/05 能力成长/职场优势力测评/自我测评-佑佐未来优势力报告.md",
     "01 收进来 Raw/03 个人资料/05 能力成长/职场优势力测评/自我测评.pdf",
     "01 收进来 Raw/03 个人资料/05 能力成长/萃取能力/主访谈人专业点评_唐文莉.md",
-    "00 关于我/关于我.md",
     "00 关于我/当前主线.md",
     "01 收进来 Raw/02 项目资料/4×7项目/03 城市共创/重庆/01 共创方案/重庆首城共创方案-v2.0.md",
     "01 收进来 Raw/02 项目资料/4×7项目/03 城市共创/重庆/02 共创课件/重庆共创工作坊课件-v0.3.md",
