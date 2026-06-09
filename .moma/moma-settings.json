@@ -113,9 +113,9 @@
     "effort-default-medium",
     "chat-view-placement-v1"
   ],
-  "lastUpdateCheck": 1780922178690,
+  "lastUpdateCheck": 1780987909616,
   "remoteAgentConfig": {
-    "fetchedAt": 1780882296377,
+    "fetchedAt": 1780987905418,
     "fetchedPluginVersion": "0.1.8",
     "envVars": {
       "claude": {
