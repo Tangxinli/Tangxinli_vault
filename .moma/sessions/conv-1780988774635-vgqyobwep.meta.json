@@ -1,0 +1,24 @@
+{
+  "id": "conv-1780988774635-vgqyobwep",
+  "providerId": "claude",
+  "title": "生成付振博案例萃取内容表格",
+  "titleGenerationStatus": "success",
+  "createdAt": 1780988774638,
+  "updatedAt": 1780989231507,
+  "lastResponseAt": 1780989231507,
+  "sessionId": "3cd5336e-d7bb-4a2e-b575-421bd8bb2049",
+  "providerState": {
+    "providerSessionId": "3cd5336e-d7bb-4a2e-b575-421bd8bb2049"
+  },
+  "currentNote": "01 收进来 Raw/02 项目资料/4×7项目/03 城市共创/重庆/PS：付振博案例萃取/01 案例萃取Skill/萃取工具-单阶段4能力萃取工作表.md",
+  "usage": {
+    "model": "haiku",
+    "inputTokens": 0,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 0,
+    "percentage": 0,
+    "contextWindowIsAuthoritative": true
+  }
+}
