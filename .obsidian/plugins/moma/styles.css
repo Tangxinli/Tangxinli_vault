@@ -220,8 +220,27 @@ body.theme-light .moma-container[data-provider="codex"] {
   height: 13px;
 }
 
-.moma-header-refresh-btn--loading svg {
+.moma-header-version-area .moma-header-btn--loading svg {
   animation: moma-spin 0.7s linear infinite;
+}
+
+.moma-header-cdn-fallback-btn {
+  background: transparent;
+  border: none;
+  border-radius: 4px;
+  padding: 2px 3px;
+  opacity: 0.65;
+  transition: background 0.15s ease, opacity 0.15s ease;
+}
+
+.moma-header-cdn-fallback-btn:hover {
+  background: var(--background-modifier-hover);
+  opacity: 1;
+}
+
+.moma-header-cdn-fallback-btn svg {
+  width: 13px;
+  height: 13px;
 }
 
 @keyframes moma-spin {
@@ -360,8 +379,13 @@ body.theme-light .moma-container[data-provider="codex"] {
   position: static;
 }
 
+.moma-notification-container {
+  position: static;
+}
+
 /* History dropup menu — mounted in inputWrapper (input mode) or historyBtn (header mode) */
-.moma-history-menu {
+.moma-history-menu,
+.moma-notification-menu {
   display: none;
   position: absolute;
   bottom: 100%;
@@ -379,12 +403,14 @@ body.theme-light .moma-container[data-provider="codex"] {
   overflow: hidden;
 }
 
-.moma-history-menu.visible {
+.moma-history-menu.visible,
+.moma-notification-menu.visible {
   display: block;
 }
 
 /* Header mode: dropdown instead of dropup */
-.moma-container--header-mode .moma-history-menu {
+.moma-container--header-mode .moma-history-menu,
+.moma-container--header-mode .moma-notification-menu {
   bottom: auto;
   top: 100%;
   margin-bottom: 0;
@@ -392,7 +418,8 @@ body.theme-light .moma-container[data-provider="codex"] {
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
 }
 
-.moma-history-header {
+.moma-history-header,
+.moma-notification-header {
   padding: 8px 12px;
   font-size: 12px;
   font-weight: 600;
@@ -402,16 +429,210 @@ body.theme-light .moma-container[data-provider="codex"] {
   border-bottom: 1px solid var(--background-modifier-border);
 }
 
-.moma-history-list {
+.moma-notification-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.moma-notification-header-title {
+  min-width: 0;
+}
+
+.moma-notification-refresh-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 auto;
+  width: 22px;
+  height: 22px;
+  padding: 0;
+  border: none;
+  border-radius: 4px;
+  background: transparent;
+  color: var(--text-faint);
+  cursor: pointer;
+  transition: background-color 160ms ease, color 160ms ease, opacity 160ms ease;
+}
+
+.moma-notification-refresh-btn:hover {
+  background: var(--background-modifier-hover);
+  color: var(--text-muted);
+}
+
+.moma-notification-refresh-btn svg {
+  width: 14px;
+  height: 14px;
+}
+
+.moma-notification-refresh-btn--loading,
+.moma-notification-refresh-btn:disabled {
+  cursor: default;
+  opacity: 0.62;
+}
+
+.moma-notification-refresh-btn--loading svg {
+  animation: moma-spin 0.7s linear infinite;
+}
+
+.moma-history-list,
+.moma-notification-list {
   max-height: 350px;
   overflow-y: auto;
 }
 
-.moma-history-empty {
+.moma-notification-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 8px;
+}
+
+.moma-history-empty,
+.moma-notification-empty {
   padding: 16px;
   text-align: center;
   color: var(--text-muted);
   font-size: 13px;
+}
+
+.moma-notification-error {
+  color: var(--text-error);
+}
+
+.moma-notification-task-card {
+  display: grid;
+  grid-template-columns: 18px minmax(0, 1fr);
+  gap: 10px;
+  padding: 10px 12px;
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 6px;
+  background: var(--background-primary);
+  transition: background-color 160ms ease, border-color 160ms ease;
+}
+
+.moma-notification-task-card:hover {
+  border-color: var(--background-modifier-border-hover);
+  background: var(--background-modifier-hover);
+}
+
+.moma-notification-task-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 18px;
+  height: 18px;
+  margin-top: 1px;
+  color: var(--text-muted);
+}
+
+.moma-notification-task-icon svg {
+  width: 16px;
+  height: 16px;
+}
+
+.moma-notification-task-card-pending .moma-notification-task-icon {
+  color: #9b72ff;
+}
+
+.moma-notification-task-card-pending .moma-notification-task-icon svg {
+  animation: moma-transcription-notice-spin 0.9s linear infinite;
+}
+
+.moma-notification-task-card-success .moma-notification-task-icon {
+  color: #1f9d4f;
+}
+
+.moma-notification-task-card-failed .moma-notification-task-icon {
+  color: var(--text-error);
+}
+
+.moma-notification-task-content {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  min-width: 0;
+}
+
+.moma-notification-task-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-width: 0;
+}
+
+.moma-notification-task-title {
+  min-width: 0;
+  color: var(--text-normal);
+  flex: 1 1 auto;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+.moma-notification-task-file {
+  display: block;
+  min-width: 0;
+  color: var(--text-normal);
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.35;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.moma-notification-task-status {
+  color: var(--text-muted);
+  flex: 0 0 auto;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.35;
+  white-space: nowrap;
+}
+
+.moma-notification-task-button {
+  flex: 0 0 auto;
+  min-height: 30px;
+  min-width: 76px;
+  padding: 5px 12px;
+  border: 1px solid #9b72ff;
+  border-radius: 6px;
+  background: #9670f4;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1.25;
+  cursor: pointer;
+  transition: background-color 160ms ease, border-color 160ms ease, opacity 160ms ease;
+}
+
+.moma-notification-task-button:hover {
+  border-color: #ad8cff;
+  background: #a47cff;
+}
+
+.moma-notification-task-button:active {
+  opacity: 0.86;
+}
+
+.moma-notification-task-button:disabled {
+  cursor: default;
+  opacity: 0.58;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .moma-notification-task-card,
+  .moma-notification-refresh-btn,
+  .moma-notification-task-button {
+    transition: none;
+  }
+
+  .moma-notification-refresh-btn--loading svg,
+  .moma-notification-task-card-pending .moma-notification-task-icon svg {
+    animation: none;
+  }
 }
 
 .moma-history-item {
@@ -5823,6 +6044,417 @@ body.theme-dark .moma-space-submenu {
   width: 100%;
   height: 100%;
   border: none;
+}
+
+
+/* ============================================
+   features/transcription.css
+   ============================================ */
+/*
+ * @author ZHANGKAIRUI
+ * @since 2026-06-03 21:01:25 CST
+ */
+
+.notice:has(.moma-transcription-notice-card) {
+  width: min(480px, calc(100vw - 48px));
+  padding: 0;
+  border: 1px solid rgb(255 255 255 / 0.07);
+  border-radius: 9px;
+  background: rgb(15 15 15 / 0.96);
+  box-shadow: 0 14px 38px rgb(0 0 0 / 0.34), 0 1px 0 rgb(255 255 255 / 0.06) inset;
+}
+
+.moma-audio-transcript-preview-view {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  min-height: 0;
+  background: var(--background-primary);
+}
+
+.moma-audio-transcript-preview-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 14px 20px;
+  border-bottom: 1px solid var(--background-modifier-border);
+  background: var(--background-primary);
+}
+
+.moma-audio-transcript-preview-header-text {
+  min-width: 0;
+}
+
+.moma-audio-transcript-preview-title {
+  color: var(--text-normal);
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 1.35;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.moma-audio-transcript-preview-path {
+  margin-top: 3px;
+  color: var(--text-muted);
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: 1.4;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.moma-audio-transcript-preview-open-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  min-height: 32px;
+  padding: 6px 12px;
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 6px;
+  background: var(--background-secondary);
+  color: var(--text-normal);
+  flex-shrink: 0;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 1.3;
+  cursor: pointer;
+}
+
+.moma-audio-transcript-preview-open-button:hover {
+  border-color: var(--interactive-accent);
+  color: var(--text-accent);
+}
+
+.moma-audio-transcript-preview-open-icon {
+  display: inline-flex;
+  width: 15px;
+  height: 15px;
+}
+
+.moma-audio-transcript-preview-body {
+  flex: 1 1 auto;
+  min-height: 0;
+  padding: 20px 24px 40px;
+  overflow-y: auto;
+}
+
+.moma-audio-transcript-preview-chunk {
+  overflow-wrap: anywhere;
+}
+
+.moma-audio-transcript-preview-sentinel {
+  width: 100%;
+  height: 1px;
+}
+
+.moma-audio-transcript-preview-empty {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 260px;
+  color: var(--text-muted);
+  text-align: center;
+}
+
+.moma-audio-transcript-preview-empty-icon {
+  width: 28px;
+  height: 28px;
+  margin-bottom: 10px;
+}
+
+.moma-audio-transcript-preview-empty-title {
+  color: var(--text-normal);
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+
+.moma-audio-transcript-preview-empty-desc {
+  margin-top: 6px;
+  font-size: 13px;
+  letter-spacing: 0;
+}
+
+.moma-transcription-notice-card {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  min-width: 0;
+  padding: 16px 18px 18px;
+  color: #f4f4f5;
+}
+
+.moma-transcription-notice-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  min-width: 0;
+}
+
+.moma-transcription-notice-title-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 9px;
+  min-width: 0;
+}
+
+.moma-transcription-notice-logo {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  margin-top: 1px;
+  border-radius: 5px;
+  flex: 0 0 22px;
+}
+
+.moma-transcription-notice-logo svg,
+.moma-transcription-notice-logo img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.moma-transcription-notice-title {
+  min-width: 0;
+  color: #f8f8f8;
+  flex: 1 1 auto;
+  font-size: 18px;
+  font-weight: 800;
+  letter-spacing: 0;
+  line-height: 1.22;
+}
+
+.moma-transcription-notice-file {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  color: #e7e7ea;
+  font-size: 15px;
+  font-weight: 650;
+  letter-spacing: 0;
+  line-height: 1.35;
+  overflow: hidden;
+  overflow-wrap: anywhere;
+}
+
+.moma-transcription-notice-status {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 22px;
+  color: #a5a5aa;
+  font-size: 14px;
+  font-weight: 650;
+  letter-spacing: 0;
+  line-height: 1.45;
+}
+
+.moma-transcription-notice-status-text {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.moma-transcription-notice-check {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 18px;
+  height: 18px;
+  color: #1f9d4f;
+  flex-shrink: 0;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.moma-transcription-notice-spinner {
+  width: 16px;
+  height: 16px;
+  border: 2px solid rgb(151 112 255 / 0.28);
+  border-top-color: #9b72ff;
+  border-radius: 999px;
+  flex-shrink: 0;
+  animation: moma-transcription-notice-spin 0.9s linear infinite;
+}
+
+.moma-transcription-notice-actions {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  padding-top: 2px;
+}
+
+.moma-transcription-notice-button {
+  flex: 1 1 0;
+  min-width: 0;
+  min-height: 46px;
+  padding: 9px 18px;
+  border: 1px solid transparent;
+  border-radius: 7px;
+  font-size: 16px;
+  font-weight: 800;
+  letter-spacing: 0;
+  line-height: 1.25;
+  white-space: nowrap;
+  box-shadow: 0 1px 0 rgb(255 255 255 / 0.2) inset, 0 6px 14px rgb(139 92 246 / 0.18);
+  cursor: pointer;
+  transition: background-color 180ms ease, border-color 180ms ease, opacity 180ms ease, transform 180ms ease;
+  touch-action: manipulation;
+}
+
+.moma-transcription-notice-button-primary {
+  border-color: #9b72ff;
+  background: #9670f4;
+  color: #fff;
+}
+
+.moma-transcription-notice-button-primary:hover {
+  border-color: #ad8cff;
+  background: #a47cff;
+}
+
+.moma-transcription-notice-button:active {
+  transform: translateY(1px);
+}
+
+.moma-transcription-notice-button:disabled {
+  cursor: default;
+  opacity: 0.58;
+  transform: none;
+}
+
+@media (max-width: 480px) {
+  .notice:has(.moma-transcription-notice-card) {
+    width: min(360px, calc(100vw - 24px));
+  }
+
+  .moma-transcription-notice-card {
+    gap: 14px;
+    padding: 15px;
+  }
+
+  .moma-transcription-notice-title {
+    font-size: 17px;
+  }
+
+  .moma-transcription-notice-logo {
+    width: 20px;
+    height: 20px;
+    flex-basis: 20px;
+  }
+
+  .moma-transcription-notice-file {
+    font-size: 14px;
+  }
+
+  .moma-transcription-notice-status,
+  .moma-transcription-notice-button {
+    font-size: 14px;
+  }
+
+  .moma-transcription-notice-button {
+    min-height: 44px;
+  }
+}
+
+@keyframes moma-transcription-notice-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .moma-transcription-notice-spinner {
+    animation: none;
+  }
+
+  .moma-transcription-notice-button {
+    transition: none;
+  }
+}
+
+
+/* ============================================
+   features/gray-release.css
+   ============================================ */
+.moma-notice-container {
+  min-width: 260px;
+  max-width: 340px;
+}
+
+.moma-gray-release-notice {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 2px 0;
+}
+
+.moma-gray-release-title {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.moma-gray-release-version {
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+
+.moma-gray-release-note {
+  font-size: 12px;
+  opacity: 0.7;
+  margin-top: 2px;
+  line-height: 1.4;
+}
+
+.moma-gray-release-hint {
+  font-size: 12px;
+  opacity: 0.5;
+  margin-top: 20px;
+  line-height: 1.4;
+}
+
+.moma-gray-release-actions {
+  display: flex;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.moma-gray-release-actions button {
+  flex: 1;
+  padding: 6px 0;
+  font-size: 13px;
+  font-weight: 500;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: opacity 0.15s ease;
+}
+
+.moma-gray-release-actions button:hover {
+  opacity: 0.85;
+}
+
+.moma-gray-release-actions button.mod-cta {
+  border: none;
+  background-color: var(--interactive-accent);
+  color: var(--text-on-accent);
+}
+
+.moma-gray-release-actions button.moma-gray-release-later-btn {
+  background-color: transparent;
+  color: var(--interactive-accent);
+  border: 1px solid var(--interactive-accent);
 }
 
 
