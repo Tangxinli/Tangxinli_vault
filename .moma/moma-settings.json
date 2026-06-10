@@ -77,7 +77,25 @@
   },
   "lastCustomModel": "",
   "backendEnv": "prod",
+  "audioFileRecognition": {
+    "enable": true,
+    "supportAudioSuffixes": [
+      "mp3",
+      "wav",
+      "wma",
+      "ape",
+      "flac",
+      "ogg-opus",
+      "aac",
+      "m4a",
+      "flv",
+      "mp4",
+      "3gp",
+      "amr"
+    ]
+  },
   "autoUpdate": true,
+  "pluginEnv": "prod",
   "maxTabs": 5,
   "tabBarPosition": "input",
   "enableAutoScroll": true,
@@ -115,12 +133,14 @@
   ],
   "lastUpdateCheck": 1781054458837,
   "remoteAgentConfig": {
-    "fetchedAt": 1781054458804,
-    "fetchedPluginVersion": "0.1.8",
+    "fetchedAt": 1781078236375,
+    "fetchedPluginVersion": "0.2.2",
     "envVars": {
       "claude": {
         "CLAUDE_CODE_AUTO_COMPACT_WINDOW": "200000"
       }
     }
-  }
+  },
+  "grayReleaseUpdateEnabled": true,
+  "lastGrayReleaseCheck": 1781078236638
 }
