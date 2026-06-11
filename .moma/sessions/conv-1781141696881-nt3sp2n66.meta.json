@@ -1,0 +1,24 @@
+{
+  "id": "conv-1781141696881-nt3sp2n66",
+  "providerId": "claude",
+  "title": "梳理培训人产出物对话",
+  "titleGenerationStatus": "success",
+  "createdAt": 1781141696883,
+  "updatedAt": 1781141769752,
+  "lastResponseAt": 1781141769752,
+  "sessionId": "c41af3ac-fce9-48a8-8c0e-57e5308e18a6",
+  "providerState": {
+    "providerSessionId": "c41af3ac-fce9-48a8-8c0e-57e5308e18a6"
+  },
+  "currentNote": "01 收进来 Raw/02 项目资料/4×7项目/03 城市共创/重庆/01 共创方案/重庆首城共创方案-v0.6.md",
+  "usage": {
+    "model": "haiku",
+    "inputTokens": 0,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 0,
+    "percentage": 0,
+    "contextWindowIsAuthoritative": true
+  }
+}
