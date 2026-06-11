@@ -11,24 +11,12 @@
             "id": "24fe570ba055f9f6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "01 收进来 Raw/02 项目资料/4×7项目/02 项目小组研讨/第四次研讨/重庆项目系列研讨会-会议纪要.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "01 收进来 Raw/02 项目资料/北链项目/北链板块专家赋能战训方案V0.1-汇报-0610.pdf"
               },
-              "icon": "lucide-file",
-              "title": "重庆项目系列研讨会-会议纪要"
+              "icon": "lucide-file-text",
+              "title": "北链板块专家赋能战训方案V0.1-汇报-0610"
             }
           }
         ]
@@ -210,7 +198,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 461.5
+    "width": 461.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -231,9 +220,10 @@
   },
   "active": "24fe570ba055f9f6",
   "lastOpenFiles": [
+    "02 Wiki AI编译层/00 Raw索引.md.tmp.40144.1406c7e8cf25",
+    "01 收进来 Raw/02 项目资料/4×7项目/02 项目小组研讨/第四次研讨/重庆项目系列研讨会-会议纪要.md",
     "01 收进来 Raw/02 项目资料/北链项目/北链板块专家赋能战训方案V0.1-汇报-0610.pdf",
     "01 收进来 Raw/02 项目资料/4×7项目/02 项目小组研讨/第三次研讨/4×7项目脑暴会-会议纪要.md",
-    "01 收进来 Raw/02 项目资料/4×7项目/02 项目小组研讨/第四次研讨/重庆项目系列研讨会-会议纪要.md",
     "01 收进来 Raw/02 项目资料/4×7项目/02 项目小组研讨/第四次研讨/共创流程与课件梳理.md",
     "01 收进来 Raw/02 项目资料/4×7项目/02 项目小组研讨/第四次研讨/金燕指导纪要.md",
     "01 收进来 Raw/02 项目资料/4×7项目/03 城市共创/重庆/01 共创方案/重庆首城共创方案-v0.7.md",
@@ -256,7 +246,6 @@
     "01 收进来 Raw/03 个人资料/04 日常学习/希源分享/nuwa.md",
     "01 收进来 Raw/03 个人资料/04 日常学习/希源分享/贝壳转写易错词库_v1.md",
     "01 收进来 Raw/03 个人资料/04 日常学习/姑姑内容/研究：内容策展、场景拆解与身份强化——花桥校友会从_有内容_....pdf",
-    "01 收进来 Raw/03 个人资料/04 日常学习/高手-ljg/ljg-people",
     "01 收进来 Raw/03 个人资料/04 日常学习/高手-ljg/ljg-writes.md",
     "01 收进来 Raw/03 个人资料/04 日常学习/高手-ljg/ljg-word.md",
     "01 收进来 Raw/03 个人资料/04 日常学习/高手-ljg/ljg-word-flow.md",
