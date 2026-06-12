@@ -12,8 +12,12 @@
       {
         "tabId": "tab-1781141625887-6jjsny4",
         "conversationId": "conv-1781157681214-43srwhuyu"
+      },
+      {
+        "tabId": "tab-1781240190867-sk6r6uq",
+        "conversationId": null
       }
     ],
-    "activeTabId": "tab-1781141625887-6jjsny4"
+    "activeTabId": "tab-1781240190867-sk6r6uq"
   }
 }
