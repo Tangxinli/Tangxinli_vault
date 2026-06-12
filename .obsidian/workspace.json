@@ -11,12 +11,24 @@
             "id": "24fe570ba055f9f6",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "01 收进来 Raw/02 项目资料/北链项目/北链板块专家赋能战训方案V0.1-汇报-0610.pdf"
+                "file": "01 收进来 Raw/03 个人资料/04 日常学习/姑姑内容/以客户为中心-徐东华.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "lucide-file-text",
-              "title": "北链板块专家赋能战训方案V0.1-汇报-0610"
+              "icon": "lucide-file",
+              "title": "以客户为中心-徐东华"
             }
           }
         ]
@@ -220,9 +232,9 @@
   },
   "active": "24fe570ba055f9f6",
   "lastOpenFiles": [
+    "01 收进来 Raw/02 项目资料/北链项目/北链板块专家赋能战训方案V0.1-汇报-0610.pdf",
     "02 Wiki AI编译层/00 Raw索引.md.tmp.40144.1406c7e8cf25",
     "01 收进来 Raw/02 项目资料/4×7项目/02 项目小组研讨/第四次研讨/重庆项目系列研讨会-会议纪要.md",
-    "01 收进来 Raw/02 项目资料/北链项目/北链板块专家赋能战训方案V0.1-汇报-0610.pdf",
     "01 收进来 Raw/02 项目资料/4×7项目/02 项目小组研讨/第三次研讨/4×7项目脑暴会-会议纪要.md",
     "01 收进来 Raw/02 项目资料/4×7项目/02 项目小组研讨/第四次研讨/共创流程与课件梳理.md",
     "01 收进来 Raw/02 项目资料/4×7项目/02 项目小组研讨/第四次研讨/金燕指导纪要.md",
