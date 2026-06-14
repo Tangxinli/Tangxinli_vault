@@ -1,0 +1,24 @@
+{
+  "id": "conv-1781422590623-gpxxwnzq4",
+  "providerId": "claude",
+  "title": "回应简单问候",
+  "titleGenerationStatus": "success",
+  "createdAt": 1781422590623,
+  "updatedAt": 1781422600308,
+  "lastResponseAt": 1781422600308,
+  "sessionId": "e63aeeea-8f10-43f7-9a56-a908a8ddd8b4",
+  "providerState": {
+    "providerSessionId": "e63aeeea-8f10-43f7-9a56-a908a8ddd8b4"
+  },
+  "currentNote": "01 收进来 Raw/01 组织背景/20260224-S寄语贝壳的小伙伴们-坚持做难而正确的事.md",
+  "usage": {
+    "model": "haiku",
+    "inputTokens": 0,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 0,
+    "percentage": 0,
+    "contextWindowIsAuthoritative": true
+  }
+}
