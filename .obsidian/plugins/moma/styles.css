@@ -379,13 +379,12 @@ body.theme-light .moma-container[data-provider="codex"] {
   position: static;
 }
 
-.moma-notification-container {
-  position: static;
+.moma-more-container {
+  position: relative;
 }
 
 /* History dropup menu — mounted in inputWrapper (input mode) or historyBtn (header mode) */
-.moma-history-menu,
-.moma-notification-menu {
+.moma-history-menu {
   display: none;
   position: absolute;
   bottom: 100%;
@@ -403,14 +402,12 @@ body.theme-light .moma-container[data-provider="codex"] {
   overflow: hidden;
 }
 
-.moma-history-menu.visible,
-.moma-notification-menu.visible {
+.moma-history-menu.visible {
   display: block;
 }
 
 /* Header mode: dropdown instead of dropup */
-.moma-container--header-mode .moma-history-menu,
-.moma-container--header-mode .moma-notification-menu {
+.moma-container--header-mode .moma-history-menu {
   bottom: auto;
   top: 100%;
   margin-bottom: 0;
@@ -418,8 +415,7 @@ body.theme-light .moma-container[data-provider="codex"] {
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
 }
 
-.moma-history-header,
-.moma-notification-header {
+.moma-history-header {
   padding: 8px 12px;
   font-size: 12px;
   font-weight: 600;
@@ -429,15 +425,196 @@ body.theme-light .moma-container[data-provider="codex"] {
   border-bottom: 1px solid var(--background-modifier-border);
 }
 
-.moma-notification-header {
+.moma-global-panel-modal {
+  max-width: 560px;
+}
+
+.moma-global-panel-modal .modal-content {
+  padding: 4px 0 0;
+}
+
+.moma-global-panel-content {
+  display: flex;
+  flex-direction: column;
+  min-height: 220px;
+}
+
+.moma-notification-header,
+.moma-share-header {
   display: flex;
   align-items: center;
+  min-height: 32px;
+  margin-bottom: 8px;
+}
+
+.moma-notification-header,
+.moma-share-header {
   justify-content: space-between;
   gap: 8px;
 }
 
-.moma-notification-header-title {
+.moma-global-panel-title-group {
+  display: inline-flex;
+  align-items: center;
   min-width: 0;
+  gap: 8px;
+}
+
+.moma-global-panel-title-logo {
+  display: block;
+  flex: 0 0 auto;
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+
+.moma-notification-header-title,
+.moma-share-header-title {
+  min-width: 0;
+  color: var(--text-normal);
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 1.3;
+}
+
+.moma-share-subtitle {
+  margin: 0 0 14px;
+  color: var(--text-muted);
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 1.45;
+}
+
+.moma-more-menu {
+  display: none;
+  position: absolute;
+  inset-inline-end: 0;
+  bottom: 100%;
+  min-width: 142px;
+  margin-bottom: 10px;
+  padding: 5px;
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 8px;
+  background: var(--background-primary);
+  box-shadow: 0 -5px 18px rgba(0, 0, 0, 0.28);
+  z-index: 1001;
+  transform-origin: bottom right;
+}
+
+.moma-more-menu.visible {
+  display: block;
+}
+
+.moma-header-version-area .moma-more-menu {
+  bottom: auto;
+  top: 100%;
+  margin-top: 10px;
+  margin-bottom: 0;
+  box-shadow: 0 5px 18px rgba(0, 0, 0, 0.28);
+  transform-origin: top right;
+}
+
+.moma-more-menu::after {
+  position: absolute;
+  right: 12px;
+  bottom: -5px;
+  width: 9px;
+  height: 9px;
+  border-right: 1px solid var(--background-modifier-border);
+  border-bottom: 1px solid var(--background-modifier-border);
+  background: var(--background-primary);
+  content: '';
+  transform: rotate(45deg);
+}
+
+.moma-header-version-area .moma-more-menu::after {
+  top: -5px;
+  bottom: auto;
+  border-top: 1px solid var(--background-modifier-border);
+  border-right: none;
+  border-bottom: none;
+  border-left: 1px solid var(--background-modifier-border);
+}
+
+.moma-container--header-mode .moma-more-menu {
+  bottom: auto;
+  top: 100%;
+  margin-top: 10px;
+  margin-bottom: 0;
+  box-shadow: 0 5px 18px rgba(0, 0, 0, 0.28);
+  transform-origin: top right;
+}
+
+.moma-container--header-mode .moma-more-menu::after {
+  top: -5px;
+  bottom: auto;
+  border-top: 1px solid var(--background-modifier-border);
+  border-right: none;
+  border-bottom: none;
+  border-left: 1px solid var(--background-modifier-border);
+}
+
+.moma-more-menu-item {
+  appearance: none;
+  -webkit-appearance: none;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  min-height: 34px;
+  gap: 9px;
+  padding: 7px 9px;
+  border: 0 !important;
+  border-radius: 5px;
+  background: transparent !important;
+  background-image: none !important;
+  box-shadow: none !important;
+  color: var(--text-normal) !important;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 13px !important;
+  font-weight: 500 !important;
+  height: auto;
+  letter-spacing: 0;
+  line-height: 1.35;
+  margin: 0;
+  text-align: left;
+  touch-action: manipulation;
+}
+
+.moma-more-menu-item:hover,
+.moma-more-menu-item:focus-visible {
+  background: var(--background-modifier-hover) !important;
+  color: var(--text-normal) !important;
+  outline: none;
+}
+
+.moma-more-menu-item-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 18px;
+  width: 18px;
+  height: 18px;
+  color: var(--text-muted);
+}
+
+.moma-more-menu-item-icon svg {
+  display: block;
+  width: 16px;
+  height: 16px;
+}
+
+.moma-more-menu-item-label {
+  display: block;
+  flex: 1 1 auto;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .moma-notification-refresh-btn {
@@ -477,24 +654,207 @@ body.theme-light .moma-container[data-provider="codex"] {
 }
 
 .moma-history-list,
-.moma-notification-list {
-  max-height: 350px;
+.moma-notification-list,
+.moma-share-list {
+  max-height: min(430px, calc(100vh - 240px));
   overflow-y: auto;
 }
 
-.moma-notification-list {
+.moma-notification-list,
+.moma-share-list {
   display: flex;
   flex-direction: column;
   gap: 8px;
-  padding: 8px;
+  padding: 8px 0 0;
+}
+
+.moma-share-item {
+  display: grid;
+  grid-template-columns: 32px minmax(0, 1fr) auto;
+  gap: 10px;
+  align-items: center;
+  min-height: 74px;
+  padding: 10px 12px;
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 6px;
+  background: var(--background-primary);
+}
+
+.moma-share-item-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  color: var(--text-muted);
+}
+
+.moma-share-item-icon svg {
+  width: 20px;
+  height: 20px;
+}
+
+.moma-share-item-content {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 0;
+}
+
+.moma-share-item-title-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-width: 0;
+}
+
+.moma-share-item-title {
+  flex: 0 1 auto;
+  min-width: 0;
+  max-width: 100%;
+  overflow: hidden;
+  color: var(--text-normal);
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 1.3;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.moma-share-status {
+  flex: 0 0 auto;
+  padding: 2px 8px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 1.25;
+}
+
+.moma-share-status-active {
+  background: rgba(31, 157, 79, 0.16);
+  color: #55c178;
+}
+
+.moma-share-status-disabled,
+.moma-share-status-unknown {
+  background: var(--background-modifier-hover);
+  color: var(--text-muted);
+}
+
+.moma-share-item-url {
+  min-width: 0;
+  overflow: hidden;
+  color: var(--text-muted);
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 1.35;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.moma-share-item-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 12px;
+  color: var(--text-muted);
+  font-size: 12px;
+  line-height: 1.35;
+}
+
+.moma-share-item-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: flex-start;
+}
+
+.moma-share-action-btn,
+.moma-share-retry-btn {
+  appearance: none;
+  -webkit-appearance: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 5px;
+  min-height: 24px;
+  margin: 0;
+  padding: 2px 4px;
+  border: 0 !important;
+  border-radius: 4px;
+  background: transparent !important;
+  background-image: none !important;
+  box-shadow: none !important;
+  color: var(--text-accent) !important;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 12px !important;
+  font-weight: 600 !important;
+  letter-spacing: 0;
+  line-height: 1.25;
+  text-align: left;
+}
+
+.moma-share-action-btn:hover,
+.moma-share-action-btn:focus-visible,
+.moma-share-retry-btn:hover,
+.moma-share-retry-btn:focus-visible {
+  background: var(--background-modifier-hover) !important;
+  color: var(--text-accent-hover) !important;
+  outline: none;
+}
+
+.moma-share-action-btn-danger {
+  color: var(--text-error) !important;
+}
+
+.moma-share-action-btn-danger:hover,
+.moma-share-action-btn-danger:focus-visible {
+  color: var(--text-error) !important;
+}
+
+.moma-share-action-btn-disabled,
+.moma-share-action-btn-disabled:hover,
+.moma-share-action-btn-disabled:focus-visible {
+  color: var(--text-faint) !important;
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+.moma-share-action-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 14px;
+}
+
+.moma-share-action-icon svg {
+  width: 14px;
+  height: 14px;
+}
+
+.moma-share-footer {
+  min-height: 30px;
+  padding: 8px 0 0;
+}
+
+.moma-share-footer-text {
+  color: var(--text-muted);
+  font-size: 12px;
+  line-height: 1.4;
+  text-align: center;
 }
 
 .moma-history-empty,
-.moma-notification-empty {
-  padding: 16px;
+.moma-notification-empty,
+.moma-share-empty {
+  padding: 40px 16px;
   text-align: center;
   color: var(--text-muted);
   font-size: 13px;
+  line-height: 1.45;
 }
 
 .moma-notification-error {
@@ -625,7 +985,8 @@ body.theme-light .moma-container[data-provider="codex"] {
 @media (prefers-reduced-motion: reduce) {
   .moma-notification-task-card,
   .moma-notification-refresh-btn,
-  .moma-notification-task-button {
+  .moma-notification-task-button,
+  .moma-more-menu-item {
     transition: none;
   }
 
@@ -2324,11 +2685,9 @@ body.theme-light .moma-message-content pre {
   overflow: visible; /* permission-mode hint tooltip (::after) extends outside row */
 }
 
-/* Hide model picker and effort/thinking controls; saved defaults still apply. */
-.moma-container .moma-input-toolbar .moma-model-selector,
-.moma-container .moma-input-toolbar .moma-thinking-selector {
-  display: none !important;
-}
+/* Model picker + effort/thinking controls visible in toolbar.
+   (Previously hidden; restored to expose the multi-provider model picker
+   so users can switch between Claude / Codex / Hermes models.) */
 
 /* File indicator (attached files) */
 .moma-file-indicator {
@@ -2562,6 +2921,70 @@ body.theme-light .moma-message-content pre {
 @keyframes moma-dot-bounce {
   0%, 60%, 100% { transform: translateY(0) scale(0.75); opacity: 0.4; }
   30%            { transform: translateY(-5px) scale(1.2); opacity: 1; }
+}
+
+
+/* ============================================
+   components/permissions.css
+   ============================================ */
+.hermes-permission-card {
+  padding: 12px 14px;
+  margin: 8px 0;
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 6px;
+  background: var(--background-secondary);
+}
+
+.hermes-permission-title {
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.hermes-permission-diff,
+.hermes-permission-command {
+  margin: 0 0 12px;
+  padding: 10px;
+  background: var(--background-primary);
+  border-radius: 4px;
+  white-space: pre-wrap;
+  word-break: break-all;
+  font-family: var(--font-monospace);
+  font-size: 12px;
+  /* Cap the diff/command preview so a large file (e.g. a full README
+     rewrite) scrolls internally instead of pushing the Allow/Deny
+     buttons far below the fold. The action row stays visible. */
+  max-height: 320px;
+  overflow-y: auto;
+}
+
+.hermes-permission-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.hermes-permission-option {
+  padding: 6px 12px;
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 4px;
+  background: var(--interactive-normal);
+  cursor: pointer;
+}
+
+.hermes-permission-option:hover {
+  background: var(--interactive-hover);
+}
+
+/* Persistent-authorization warning — saves to hermes allowlist across sessions. */
+.hermes-permission-option-always {
+  background: var(--background-modifier-error-hover);
+  border-color: var(--text-error);
+  color: var(--text-error);
+  font-weight: 600;
+}
+
+.hermes-permission-option-always:hover {
+  background: var(--background-modifier-error);
 }
 
 
@@ -3299,6 +3722,14 @@ body.theme-light .moma-message-content pre {
   color: var(--moma-brand);
   flex-shrink: 0;
   margin-left: auto;
+}
+
+/* Visual disabled state. Behavior is enforced by the click/mousedown handler and
+   addMentionedServers' `if (this.locked) return;` guards — CSS is visual only, and
+   we keep pointer events so the lockedTooltip can surface on hover. */
+.moma-mcp-selector-locked {
+  opacity: 0.55;
+  cursor: not-allowed;
 }
 
 
@@ -4632,6 +5063,26 @@ code .moma-file-link:hover {
   justify-content: center;
   gap: 10px;
   padding: 18px;
+}
+
+/* Compact footer row when provider commands are still arriving but built-ins /
+   cached items are already shown — sits beneath the list instead of replacing it. */
+.moma-slash-loading--footer {
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 8px;
+  padding: 6px 12px;
+  border-top: 1px solid var(--background-modifier-border);
+}
+
+.moma-slash-loading--footer .moma-slash-spinner {
+  width: 12px;
+  height: 12px;
+  border-width: 2px;
+}
+
+.moma-slash-loading--footer .moma-slash-loading-text {
+  font-size: 11px;
 }
 
 .moma-slash-loading-text {
@@ -7592,6 +8043,25 @@ body.theme-dark .moma-space-submenu {
   font-weight: 600;
   font-family: var(--font-monospace);
   color: var(--text-normal);
+}
+
+.moma-sp-item-badge {
+  font-size: 10px;
+  padding: 2px 6px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  background: var(--background-modifier-border);
+}
+
+.moma-sp-item-badge--vault {
+  color: var(--text-accent);
+  background: var(--background-modifier-hover);
+}
+
+.moma-sp-item-badge--global {
+  color: var(--text-muted);
+  background: var(--background-modifier-border);
 }
 
 .moma-sp-item-desc {

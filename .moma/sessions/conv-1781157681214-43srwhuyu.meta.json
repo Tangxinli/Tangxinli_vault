@@ -4,7 +4,7 @@
   "title": "生成第四次研讨会脑暴会议纪要",
   "titleGenerationStatus": "success",
   "createdAt": 1781157681215,
-  "updatedAt": 1781240313273,
+  "updatedAt": 1781415307270,
   "lastResponseAt": 1781240313273,
   "sessionId": "54c7a82d-619e-42d9-8592-08dc861ea42d",
   "providerState": {
@@ -322,6 +322,7 @@
     "cacheReadInputTokens": 0,
     "contextWindow": 200000,
     "contextTokens": 0,
-    "percentage": 0
+    "percentage": 0,
+    "contextWindowIsAuthoritative": false
   }
 }

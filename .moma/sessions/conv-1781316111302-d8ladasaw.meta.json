@@ -1,0 +1,23 @@
+{
+  "id": "conv-1781316111302-d8ladasaw",
+  "providerId": "claude",
+  "title": "整理一下资料",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1781316111303,
+  "updatedAt": 1781415305387,
+  "lastResponseAt": 1781415282901,
+  "sessionId": "00a8f101-7856-40e5-9102-42b59b7f92b9",
+  "providerState": {
+    "providerSessionId": "00a8f101-7856-40e5-9102-42b59b7f92b9"
+  },
+  "usage": {
+    "model": "haiku",
+    "inputTokens": 0,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 0,
+    "percentage": 0,
+    "contextWindowIsAuthoritative": true
+  }
+}
