@@ -24,10 +24,8 @@
   "providerConfigs": {
     "claude": {
       "safeMode": "acceptEdits",
-      "cliPath": "/Users/tangxinli/.npm-global/bin/claude",
-      "cliPathsByHost": {
-        "tangxinlideMacBook-Pro.local": "/Users/tangxinli/.npm-global/bin/claude"
-      },
+      "cliPath": "C:/Users/16253/AppData/Roaming/npm/node_modules/@anthropic-ai/claude-code/bin/claude.exe",
+      "cliPathsByHost": {},
       "loadUserSettings": true,
       "enableChrome": false,
       "enableBangBash": false,
@@ -144,7 +142,7 @@
   ],
   "lastUpdateCheck": 1781054458837,
   "remoteAgentConfig": {
-    "fetchedAt": 1781422334008,
+    "fetchedAt": 1781419065353,
     "fetchedPluginVersion": "0.2.5",
     "envVars": {
       "claude": {
