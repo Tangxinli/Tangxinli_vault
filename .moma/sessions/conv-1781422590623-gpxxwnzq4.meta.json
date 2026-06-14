@@ -4,13 +4,12 @@
   "title": "回应简单问候",
   "titleGenerationStatus": "success",
   "createdAt": 1781422590623,
-  "updatedAt": 1781424103486,
-  "lastResponseAt": 1781424103486,
+  "updatedAt": 1781437884127,
+  "lastResponseAt": 1781437884127,
   "sessionId": "e63aeeea-8f10-43f7-9a56-a908a8ddd8b4",
   "providerState": {
     "providerSessionId": "e63aeeea-8f10-43f7-9a56-a908a8ddd8b4"
   },
-  "currentNote": "01 收进来 Raw/01 组织背景/20260224-S寄语贝壳的小伙伴们-坚持做难而正确的事.md",
   "usage": {
     "model": "haiku",
     "inputTokens": 0,
