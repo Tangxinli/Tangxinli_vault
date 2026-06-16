@@ -11,12 +11,24 @@
             "id": "a6f9f75e03a48e58",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "01 收进来 Raw/03 个人资料/04 日常学习/附件/业主视角下的服务流程重塑.png"
+                "file": "01 收进来 Raw/02 项目资料/4×7项目/03 城市共创/重庆/01 共创方案/重庆首城共创方案-v0.1.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "lucide-image",
-              "title": "业主视角下的服务流程重塑"
+              "icon": "lucide-file",
+              "title": "重庆首城共创方案-v0.1"
             }
           }
         ]
@@ -229,8 +241,10 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "a6f9f75e03a48e58",
+  "active": "e44d7ee056d8c80d",
   "lastOpenFiles": [
+    "01 收进来 Raw/02 项目资料/4×7项目/02 项目小组研讨/重庆汇报",
+    "01 收进来 Raw/03 个人资料/04 日常学习/附件/业主视角下的服务流程重塑.png",
     "01 收进来 Raw/03 个人资料/04 日常学习/附件/客户视角下的服务流程重塑.png",
     "01 收进来 Raw/02 项目资料/4×7项目/04 参考资料/大S 专业服务/经纪人服务-8项底层能力.md",
     "01 收进来 Raw/02 项目资料/4×7项目/04 参考资料/大S 专业服务/经纪人服务-4x7矩阵展开.md",
@@ -275,8 +289,6 @@
     "01 收进来 Raw/02 项目资料/TGC运营/01 规划/附件/Pasted image 20260529112747.png",
     "01 收进来 Raw/02 项目资料/TGC运营/01 规划/附件/Pasted image 20260529112734.png",
     "01 收进来 Raw/02 项目资料/TGC运营/04 价值传播与增长/全渠道分发矩阵/02 公众号运营/附件/糖果厂内容格式五要素.jpg",
-    "01 收进来 Raw/02 项目资料/TGC运营/00 TGC运营规划/附件/Pasted image 20260529112747.png",
-    "01 收进来 Raw/02 项目资料/TGC运营/00 TGC运营规划/附件/Pasted image 20260529112759.png",
-    "01 收进来 Raw/02 项目资料/TGC运营/00 TGC运营规划/附件/Pasted image 20260529112734.png"
+    "01 收进来 Raw/02 项目资料/TGC运营/00 TGC运营规划/附件/Pasted image 20260529112747.png"
   ]
 }
