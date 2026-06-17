@@ -6,6 +6,10 @@
    base/variables.css
    ============================================ */
 /* Brand & semantic color tokens */
+body {
+  --moma-brand: #D97757;
+}
+
 .moma-container {
   --moma-brand: #D97757;
   --moma-brand-rgb: 217, 119, 87;
@@ -31,6 +35,7 @@ body.theme-light .moma-container[data-provider="codex"] {
    base/container.css
    ============================================ */
 .moma-container {
+  position: relative;
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -249,10 +254,13 @@ body.theme-light .moma-container[data-provider="codex"] {
 }
 
 .moma-dev-settings-btn {
+  position: absolute;
+  bottom: 6px;
+  left: 12px;
   display: flex;
   align-items: center;
   cursor: pointer;
-  flex-shrink: 0;
+  z-index: 10;
 }
 
 .moma-dev-settings-btn:hover {
@@ -1374,6 +1382,12 @@ body.theme-light .moma-message-user {
   font-size: 12px;
   font-weight: 500;
   font-style: italic;
+}
+
+.moma-token-count {
+  color: var(--text-muted);
+  font-size: 12px;
+  font-variant-numeric: tabular-nums;
 }
 
 /* Action buttons toolbar below user messages */
@@ -2559,7 +2573,7 @@ body.theme-light .moma-message-content pre {
 /* Collapsed by default; expanded via .has-content class; textarea fills remaining space */
 .moma-context-row {
   display: none;
-  align-items: flex-start;
+  align-items: center;
   justify-content: flex-start;
   flex-shrink: 0;
   padding: 6px 10px 0 10px;
@@ -2591,14 +2605,14 @@ body.theme-light .moma-message-content pre {
 .moma-selection-indicator,
 .moma-browser-selection-indicator,
 .moma-canvas-indicator {
-  color: #7abaff;
+  color: var(--moma-brand);
   font-size: 12px;
   line-height: 1;
   opacity: 0.9;
   pointer-events: none;
   white-space: nowrap;
   padding: 5px 6px;
-  border: 1px solid transparent;
+  border: 1px solid var(--moma-brand);
   border-radius: 4px;
   margin-inline-start: auto;
   flex-shrink: 0;
@@ -2694,6 +2708,7 @@ body.theme-light .moma-message-content pre {
   display: none;
   flex-wrap: wrap;
   gap: 6px;
+  min-width: 0;
 }
 
 .moma-file-chip {
@@ -2707,6 +2722,7 @@ body.theme-light .moma-message-content pre {
   font-size: 12px;
   line-height: 1;
   max-width: 200px;
+  min-width: 0;
   cursor: pointer;
 }
 
@@ -4547,7 +4563,7 @@ code .moma-file-link:hover {
   display: flex;
   flex-direction: column;
   gap: 0;
-  padding: 2px 0;
+  padding: 2px;
   background: transparent !important;
 }
 
@@ -4559,32 +4575,43 @@ code .moma-file-link:hover {
   overflow: visible;
 }
 
-/* Input - fully transparent */
-.moma-inline-input {
+/* Input - specificity (0,2,0) beats Obsidian's input[type='text'] (0,1,1) */
+.moma-inline-input-wrap .moma-inline-input {
   width: 100%;
-  padding: 4px 8px;
+  padding: 6px 8px;
   padding-inline-end: 30px;
-  border-width: 1px !important;
-  border-style: solid !important;
-  border-color: var(--background-modifier-border) !important;
-  border-radius: 8px !important;
-  background: transparent !important;
+  border-width: 1px;
+  border-style: solid;
+  border-color: var(--background-modifier-border);
+  border-radius: 8px;
+  background: transparent;
   color: var(--text-normal);
-  font-family: var(--font-interface, -apple-system, BlinkMacSystemFont, sans-serif) !important;
-  font-size: var(--font-ui-small, 13px) !important;
+  font-family: var(--font-interface, -apple-system, BlinkMacSystemFont, sans-serif);
+  font-size: var(--font-ui-small, 13px);
+  line-height: 1.5;
+  resize: none;
+  overflow-y: auto;
+  max-height: calc(9em + 12px); /* 6 lines × 1.5 line-height + 6px×2 padding */
+  box-sizing: border-box;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
 }
 
-.moma-inline-input:focus,
-.moma-inline-input:focus-visible {
-  outline: none !important;
-  box-shadow: none !important;
+.moma-inline-input-wrap .moma-inline-input.moma-inline-edit-field:hover {
+  border-color: var(--moma-brand);
 }
 
-.moma-inline-input::placeholder {
+.moma-inline-input-wrap .moma-inline-input.moma-inline-edit-field:focus,
+.moma-inline-input-wrap .moma-inline-edit-field:focus-visible {
+  outline: none;
+  border-color: var(--moma-brand);
+  box-shadow: 0 0 0 1px var(--moma-brand);
+}
+
+.moma-inline-input-wrap .moma-inline-input::placeholder {
   color: var(--text-faint);
 }
 
-.moma-inline-input:disabled {
+.moma-inline-input-wrap .moma-inline-input:disabled {
   opacity: 0.6;
 }
 
@@ -4620,62 +4647,194 @@ code .moma-file-link:hover {
   word-wrap: break-word;
 }
 
-/* Inline Diff - replaces selection in place */
-.moma-inline-diff-replace {
-  /* Inherit all font properties from document */
-  font-size: inherit;
-  font-family: inherit;
-  line-height: inherit;
-  font-weight: inherit;
+.moma-inline-agent-reply > :first-child,
+.moma-inline-diff-preview-body > :first-child {
+  margin-top: 0;
 }
 
-/* Deleted text - red strikethrough */
-.moma-diff-del {
+.moma-inline-agent-reply > :last-child,
+.moma-inline-diff-preview-body > :last-child {
+  margin-bottom: 0;
+}
+
+.moma-inline-diff-preview {
+  margin: 4px 0 6px;
+  padding: 8px 10px;
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 8px;
+  background: var(--background-primary);
+  color: var(--text-normal);
+  overflow: hidden;
+}
+
+.moma-inline-diff-preview-body {
+  font-family: var(--font-text);
+  font-size: var(--font-text-size);
+  line-height: var(--line-height-normal);
+  overflow-x: auto;
+  --p-spacing: 0.4rem;
+  --heading-spacing: 0.5rem;
+}
+
+.moma-inline-diff-preview img {
+  max-width: 100%;
+  height: auto;
+}
+
+.moma-inline-diff-preview p {
+  margin: 0 0 6px !important;
+}
+
+.moma-inline-diff-preview p:last-child {
+  margin-bottom: 0;
+}
+
+.moma-inline-diff-preview h1,
+.moma-inline-diff-preview h2,
+.moma-inline-diff-preview h3,
+.moma-inline-diff-preview h4,
+.moma-inline-diff-preview h5,
+.moma-inline-diff-preview h6 {
+  margin: 0 0 6px !important;
+  line-height: 1.25;
+}
+
+.moma-inline-diff-preview h1:first-child,
+.moma-inline-diff-preview h2:first-child,
+.moma-inline-diff-preview h3:first-child,
+.moma-inline-diff-preview h4:first-child,
+.moma-inline-diff-preview h5:first-child,
+.moma-inline-diff-preview h6:first-child {
+  margin-top: 0;
+}
+
+.moma-inline-diff-preview ul,
+.moma-inline-diff-preview ol {
+  margin: 2px 0 8px !important;
+  padding-inline-start: 1.5em !important;
+}
+
+.moma-inline-diff-preview li {
+  margin: 2px 0 !important;
+}
+
+.moma-inline-diff-preview li > p {
+  margin: 0 !important;
+}
+
+.moma-inline-diff-preview pre,
+.moma-inline-diff-preview table,
+.moma-inline-diff-preview blockquote {
+  margin: 2px 0 8px !important;
+}
+
+.moma-inline-diff-preview .el-h1,
+.moma-inline-diff-preview .el-h2,
+.moma-inline-diff-preview .el-h3,
+.moma-inline-diff-preview .el-h4,
+.moma-inline-diff-preview .el-h5,
+.moma-inline-diff-preview .el-h6,
+.moma-inline-diff-preview .el-p,
+.moma-inline-diff-preview .el-ul,
+.moma-inline-diff-preview .el-ol,
+.moma-inline-diff-preview .el-pre,
+.moma-inline-diff-preview .el-table,
+.moma-inline-diff-preview .el-blockquote {
+  margin-block-start: 0 !important;
+  margin-block-end: 6px !important;
+}
+
+.moma-inline-markdown-fallback {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.moma-diff-block {
+  border-radius: 4px;
+  padding: 2px 4px;
+}
+
+.moma-diff-block + .moma-diff-block {
+  margin-top: 2px;
+}
+
+.moma-diff-block > :first-child {
+  margin-top: 0;
+}
+
+.moma-diff-block > :last-child {
+  margin-bottom: 0;
+}
+
+.moma-diff-del:not(.moma-diff-block) {
   background: rgba(255, 80, 80, 0.2);
   text-decoration: line-through;
   color: var(--text-muted);
 }
 
-/* Inserted text - green background */
-.moma-diff-ins {
+.moma-diff-ins:not(.moma-diff-block) {
   background: rgba(80, 200, 80, 0.2);
 }
 
-/* Accept/Reject buttons inline with diff */
-.moma-inline-diff-buttons {
-  display: inline-flex;
-  gap: 8px;
-  margin-inline-start: 6px;
-  background: none !important;
+.moma-diff-block.moma-diff-del {
+  background: rgba(255, 80, 80, 0.14);
+  color: var(--text-muted);
 }
 
-.moma-inline-diff-btn {
-  padding: 4px 6px;
-  border: none !important;
-  background: none !important;
+.moma-diff-block.moma-diff-ins {
+  background: rgba(80, 200, 80, 0.14);
+}
+
+.moma-inline-preview-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+  margin-top: 8px;
+  padding-top: 8px;
+  border-top: 1px solid var(--background-modifier-border);
+}
+
+.moma-inline-preview-action {
+  min-height: 28px;
+  padding: 4px 10px;
+  border: 1px solid var(--background-modifier-border) !important;
+  border-radius: 6px !important;
+  background: var(--background-secondary) !important;
   box-shadow: none !important;
-  outline: none !important;
-  font-size: 16px;
+  color: var(--text-normal);
+  font-family: var(--font-interface, -apple-system, BlinkMacSystemFont, sans-serif) !important;
+  font-size: var(--font-ui-small, 13px) !important;
+  line-height: 1.2;
   cursor: pointer;
 }
 
-.moma-inline-diff-btn.reject {
+.moma-inline-preview-action:hover {
+  background: var(--background-modifier-hover) !important;
+}
+
+.moma-inline-preview-action.reject {
   color: var(--color-red);
 }
 
-.moma-inline-diff-btn.accept {
-  color: var(--color-green);
+.moma-inline-preview-action.accept {
+  border-color: var(--interactive-accent) !important;
+  background: var(--interactive-accent) !important;
+  color: var(--text-on-accent);
+}
+
+.moma-inline-preview-action.accept:hover {
+  background: var(--interactive-accent-hover) !important;
 }
 
 
 /* ============================================
    features/diff.css
    ============================================ */
-/* Write/Edit Diff Block - Subagent style */
+/* Write/Edit Diff Block */
 .moma-write-edit-block {
   margin: 4px 0;
   background: transparent;
-  overflow: hidden;
+  overflow: visible;
 }
 
 .moma-text-block+.moma-write-edit-block {
@@ -4772,8 +4931,23 @@ code .moma-file-link:hover {
 
 .moma-write-edit-content {
   padding: 0;
-  background: transparent;
   overflow: hidden;
+  border-radius: 10px;
+  margin-top: 4px;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+body.theme-light .moma-write-edit-content {
+  background: rgba(255, 255, 255, 0.65);
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.07), 0 1px 3px rgba(0, 0, 0, 0.04);
+}
+
+body.theme-dark .moma-write-edit-content {
+  background: rgba(38, 38, 42, 0.72);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.35), 0 1px 4px rgba(0, 0, 0, 0.2);
 }
 
 .moma-write-edit-diff-row {
@@ -4784,11 +4958,12 @@ code .moma-file-link:hover {
   flex: 1;
   font-family: var(--font-monospace);
   font-size: 12px;
-  line-height: 1.5;
+  line-height: 1.6;
   background: transparent;
-  max-height: 300px;
+  max-height: 320px;
   overflow-y: auto;
   overflow-x: auto;
+  padding: 6px 0;
 }
 
 .moma-write-edit-loading,
@@ -4798,6 +4973,7 @@ code .moma-file-link:hover {
   font-family: var(--font-monospace);
   font-size: 12px;
   color: var(--text-muted);
+  padding: 6px 10px;
 }
 
 .moma-write-edit-error {
@@ -4828,13 +5004,23 @@ code .moma-file-link:hover {
   min-width: 0;
 }
 
+/* Diff line padding */
+.moma-diff-line {
+  padding: 0 10px;
+}
+
 /* Diff colors - NO strikethrough for Write/Edit blocks */
 .moma-diff-equal {
   color: var(--text-muted);
 }
 
-.moma-diff-delete {
-  background: rgba(255, 80, 80, 0.25);
+body.theme-light .moma-diff-delete {
+  background: rgba(220, 50, 50, 0.10);
+  color: var(--text-normal);
+}
+
+body.theme-dark .moma-diff-delete {
+  background: rgba(255, 70, 70, 0.14);
   color: var(--text-normal);
 }
 
@@ -4842,8 +5028,13 @@ code .moma-file-link:hover {
   color: var(--color-red);
 }
 
-.moma-diff-insert {
-  background: rgba(80, 200, 80, 0.25);
+body.theme-light .moma-diff-insert {
+  background: rgba(40, 170, 80, 0.10);
+  color: var(--text-normal);
+}
+
+body.theme-dark .moma-diff-insert {
+  background: rgba(60, 200, 90, 0.14);
   color: var(--text-normal);
 }
 
@@ -6660,6 +6851,22 @@ body.theme-light .moma-space-panel {
 .moma-space-download-error-item .moma-space-conflict-file-icon {
   color: var(--text-error);
   flex-shrink: 0;
+  align-self: flex-start;
+  margin-top: 2px;
+}
+
+.moma-space-upload-error-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+}
+
+.moma-space-upload-error-desc {
+  font-size: 12px;
+  line-height: 1.3;
+  color: var(--text-error);
+  word-break: break-all;
 }
 
 /* ============================================================
