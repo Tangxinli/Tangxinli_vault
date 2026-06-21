@@ -4,8 +4,8 @@
   "title": "回应简单问候",
   "titleGenerationStatus": "success",
   "createdAt": 1781422590623,
-  "updatedAt": 1781700129480,
-  "lastResponseAt": 1781599109257,
+  "updatedAt": 1781700342217,
+  "lastResponseAt": 1781700342217,
   "sessionId": "e63aeeea-8f10-43f7-9a56-a908a8ddd8b4",
   "providerState": {
     "providerSessionId": "e63aeeea-8f10-43f7-9a56-a908a8ddd8b4"
@@ -17,7 +17,6 @@
     "cacheReadInputTokens": 0,
     "contextWindow": 200000,
     "contextTokens": 0,
-    "percentage": 0,
-    "contextWindowIsAuthoritative": true
+    "percentage": 0
   }
 }
