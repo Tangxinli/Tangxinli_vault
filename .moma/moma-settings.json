@@ -146,8 +146,8 @@
   ],
   "lastUpdateCheck": 1781054458837,
   "remoteAgentConfig": {
-    "fetchedAt": 1782038383383,
-    "fetchedPluginVersion": "0.2.7",
+    "fetchedAt": 1782090361304,
+    "fetchedPluginVersion": "0.2.9",
     "envVars": {
       "claude": {
         "CLAUDE_CODE_AUTO_COMPACT_WINDOW": "200000"
@@ -155,7 +155,7 @@
     }
   },
   "grayReleaseUpdateEnabled": true,
-  "lastGrayReleaseCheck": 1782042997856,
+  "lastGrayReleaseCheck": 1782090361335,
   "lastGrayReleaseDismiss": 1782038386865,
   "lastGrayReleaseDismissVersion": "0.2.9",
   "hermesGrayEnabled": true

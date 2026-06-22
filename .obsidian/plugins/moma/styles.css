@@ -112,7 +112,7 @@ body.theme-light .moma-container[data-provider="codex"] {
   align-items: center;
   gap: 8px;
   flex: 1;
-  min-width: 0;  /* Allow flex item to shrink below content size */
+  min-width: 90px; /* Ensure logo + title always visible; version-area shrinks first */
 }
 
 /* Legacy class for backwards compatibility */
@@ -153,7 +153,7 @@ body.theme-light .moma-container[data-provider="codex"] {
 }
 
 .moma-header-actions-slot {
-  /* No margin-inline-start: auto here; it's set by the base .moma-header-actions */
+  margin-inline-start: 0; /* Override auto from .moma-header-actions; version-area handles right-push */
 }
 
 .moma-header .moma-tab-bar-container {
@@ -168,12 +168,12 @@ body.theme-light .moma-container[data-provider="codex"] {
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  color: var(--text-faint);
+  color: var(--moma-brand);
   transition: color 0.15s ease;
 }
 
 .moma-header-btn:hover {
-  color: var(--text-normal);
+  color: var(--moma-brand);
 }
 
 .moma-header-btn svg {
@@ -196,15 +196,28 @@ body.theme-light .moma-container[data-provider="codex"] {
 .moma-header-version-area {
   display: flex;
   align-items: center;
+  flex-wrap: nowrap;
   gap: 4px;
-  flex-shrink: 0;
-  margin-inline-start: auto;
+  flex-shrink: 1; /* Shrinks before title-slot (which has min-width: 90px) */
+  min-width: 0;   /* Allow shrinking to zero */
+  margin-inline-start: 8px;
+  /* overflow: visible (default) — keeps absolutely-positioned dropdown unclipped */
 }
 
 .moma-header-version {
   font-size: 11px;
-  color: var(--text-faint);
+  font-weight: 500;
+  color: var(--moma-brand);
+  background: rgba(var(--moma-brand-rgb), 0.1);
+  /* border: 1px solid rgba(var(--moma-brand-rgb), 0.4); */
+  border-radius: 12px;
+  padding: 4px 8px;
   user-select: none;
+  margin-right: 2px;
+  white-space: nowrap;
+  flex-shrink: 1; /* Shrinks and clips when version-area is narrow */
+  min-width: 0;
+  overflow: hidden;
 }
 
 .moma-header-refresh-btn {
@@ -225,7 +238,7 @@ body.theme-light .moma-container[data-provider="codex"] {
   height: 13px;
 }
 
-.moma-header-version-area .moma-header-btn--loading svg {
+.moma-header-btn--loading svg {
   animation: moma-spin 0.7s linear infinite;
 }
 
@@ -389,6 +402,7 @@ body.theme-light .moma-container[data-provider="codex"] {
 
 .moma-more-container {
   position: relative;
+  flex-shrink: 0;
 }
 
 /* History dropup menu — mounted in inputWrapper (input mode) or historyBtn (header mode) */
@@ -1932,6 +1946,27 @@ body.theme-light .moma-message-content pre {
   padding-inline-start: 0;
 }
 
+/* Todo expanded content: floating card matching Write/Edit style */
+.moma-tool-content-todo {
+  padding: 6px 10px;
+  border-radius: 10px;
+  margin-top: 4px;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+body.theme-light .moma-tool-content-todo {
+  background: rgba(255, 255, 255, 0.65);
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.07), 0 1px 3px rgba(0, 0, 0, 0.04);
+}
+
+body.theme-dark .moma-tool-content-todo {
+  background: rgba(38, 38, 42, 0.72);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.35), 0 1px 4px rgba(0, 0, 0, 0.2);
+}
+
 /* Expanded content: per-line rendering */
 .moma-tool-lines {
   font-family: var(--font-monospace);
@@ -2172,8 +2207,8 @@ body.theme-light .moma-message-content pre {
 /* Individual todo item - shared by status panel and inline tool via .moma-todo-list-container */
 .moma-todo-list-container .moma-todo-item {
   display: flex;
-  align-items: flex-start;
-  padding: 1px 0;
+  align-items: center;
+  padding: 5px 0;
 }
 
 .moma-todo-list-container .moma-todo-status-icon {
@@ -2183,48 +2218,41 @@ body.theme-light .moma-message-content pre {
 }
 
 .moma-todo-list-container .moma-todo-status-icon svg {
-  width: 12px;
-  height: 12px;
+  width: 16px;
+  height: 16px;
 }
 
 .moma-todo-list-container .moma-todo-text {
-  font-family: var(--font-monospace);
-  font-size: 12px;
+  font-family: var(--font-interface);
+  font-size: 13px;
   line-height: 1.4;
   flex: 1;
-  padding-left: 12px;
+  padding-left: 10px;
 }
 
 .moma-todo-list-container .moma-todo-pending .moma-todo-status-icon {
-  color: var(--text-normal);
-}
-
-.moma-todo-list-container .moma-todo-pending .moma-todo-status-icon svg {
-  transform: scale(2);
+  color: var(--text-faint);
 }
 
 .moma-todo-list-container .moma-todo-pending .moma-todo-text {
-  color: var(--text-normal);
+  color: var(--text-muted);
 }
 
 .moma-todo-list-container .moma-todo-in_progress .moma-todo-status-icon {
-  color: var(--interactive-accent);
-}
-
-.moma-todo-list-container .moma-todo-in_progress .moma-todo-status-icon svg {
-  transform: scale(2);
+  color: var(--text-normal);
 }
 
 .moma-todo-list-container .moma-todo-in_progress .moma-todo-text {
   color: var(--text-normal);
+  font-weight: 500;
 }
 
 .moma-todo-list-container .moma-todo-completed .moma-todo-status-icon {
-  color: var(--color-green);
+  color: var(--text-faint);
 }
 
 .moma-todo-list-container .moma-todo-completed .moma-todo-text {
-  color: var(--text-muted);
+  color: var(--text-faint);
 }
 
 /* Bash Output Section */
@@ -4538,6 +4566,50 @@ code .moma-file-link:hover {
    ============================================ */
 /* Inline Edit (CM6 decorations) */
 
+/* Selection toolbar - floating button above selected text */
+.moma-selection-toolbar {
+  display: flex;
+  gap: 4px;
+}
+
+/* Override CM6 default tooltip border/background — same specificity (2 classes) as .ͼ2 .cm-tooltip */
+.moma-selection-toolbar.cm-tooltip {
+  border: none;
+  background: transparent;
+}
+
+.moma-selection-toolbar-btn {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 10px;
+  border-radius: 6px;
+  border: none;
+  background: var(--background-modifier-active-hover, #333);
+  color: var(--text-on-accent, #fff);
+  font-size: 12px;
+  font-family: var(--font-interface);
+  cursor: pointer;
+  white-space: nowrap;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  transition: opacity 0.1s ease;
+}
+
+.moma-selection-toolbar-btn:hover {
+  opacity: 0.85;
+}
+
+body.theme-dark .moma-selection-toolbar-btn {
+  background: #2a2a2a;
+  color: #e8e8e8;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+body.theme-light .moma-selection-toolbar-btn {
+  background: #1a1a1a;
+  color: #f0f0f0;
+}
+
 /* Selection highlight (shared by inline edit and chat) */
 .cm-line .moma-selection-highlight,
 .moma-selection-highlight {
@@ -4594,6 +4666,10 @@ code .moma-file-link:hover {
   max-height: calc(9em + 12px); /* 6 lines × 1.5 line-height + 6px×2 padding */
   box-sizing: border-box;
   transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.moma-inline-input-wrap .moma-inline-input.moma-inline-edit-field {
+  border-color: var(--interactive-accent);
 }
 
 .moma-inline-input-wrap .moma-inline-input.moma-inline-edit-field:hover {
@@ -6041,6 +6117,8 @@ body.theme-light .moma-space-panel {
 /* Override wrap styles when used inside space panel (no border-bottom) */
 .moma-space-search-wrap {
   border-bottom: none;
+  justify-content: space-between;
+  padding-right: 0;
 }
 
 /* No top padding inside the main space view panel.
@@ -6253,6 +6331,16 @@ body.theme-light .moma-space-panel {
 
 .moma-space-lock-icon--locked {
   color: #f59e0b;
+}
+
+/* Refresh + close button group */
+.moma-space-btn-group {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  gap: 0;
+  border-radius: 4px;
+  overflow: hidden;
 }
 
 /* Refresh button in search area */
