@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 Wiki AI编译层/03 人物组织/人物组织索引.md",
+                "file": "00 关于我/工作日历.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "人物组织索引"
+              "title": "工作日历"
             }
           }
         ]
@@ -230,8 +230,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a6f9f75e03a48e58",
+  "active": "7cf36f4a935d962e",
   "lastOpenFiles": [
+    "02 Wiki AI编译层/01 主题页/SKILL赋能体系.md",
+    "02 Wiki AI编译层/03 人物组织/人物组织索引.md",
     "00 关于我/工作日历.md",
     "00 关于我/当前主线.md",
     "01 收进来 Raw/02 项目资料/TGC运营/05 价值传播/全渠道分发矩阵/02 公众号运营/附件/糖果厂内容格式五要素.jpg",
@@ -243,7 +245,6 @@
     "04 Outputs 输出成果/输出索引.md",
     "02 Wiki AI编译层/05 编译日志/编译日志.md",
     "02 Wiki AI编译层/04 项目背景/项目背景索引.md",
-    "02 Wiki AI编译层/03 人物组织/人物组织索引.md",
     "02 Wiki AI编译层/02 判断候选/判断候选索引.md",
     "02 Wiki AI编译层/01 主题页/主题索引.md",
     "00 关于我/关于我.md",
