@@ -4,8 +4,8 @@
   "title": "回应简单问候",
   "titleGenerationStatus": "success",
   "createdAt": 1781422590623,
-  "updatedAt": 1782376134622,
-  "lastResponseAt": 1782376134622,
+  "updatedAt": 1782377900523,
+  "lastResponseAt": 1782377900523,
   "sessionId": "e63aeeea-8f10-43f7-9a56-a908a8ddd8b4",
   "providerState": {
     "providerSessionId": "e63aeeea-8f10-43f7-9a56-a908a8ddd8b4",
@@ -475,13 +475,13 @@
   },
   "usage": {
     "model": "haiku",
-    "inputTokens": 7400,
+    "inputTokens": 489,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 101504,
-    "outputTokens": 3390,
+    "cacheReadInputTokens": 148032,
+    "outputTokens": 482,
     "contextWindow": 200000,
-    "contextTokens": 108904,
-    "percentage": 54,
+    "contextTokens": 148521,
+    "percentage": 74,
     "contextWindowIsAuthoritative": true
   }
 }
