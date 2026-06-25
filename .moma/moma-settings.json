@@ -146,7 +146,7 @@
   ],
   "lastUpdateCheck": 1781054458837,
   "remoteAgentConfig": {
-    "fetchedAt": 1782379779279,
+    "fetchedAt": 1782381523019,
     "fetchedPluginVersion": "0.2.12",
     "envVars": {
       "claude": {
@@ -155,7 +155,7 @@
     }
   },
   "grayReleaseUpdateEnabled": true,
-  "lastGrayReleaseCheck": 1782379779567,
+  "lastGrayReleaseCheck": 1782381523196,
   "lastGrayReleaseDismiss": 1782038386865,
   "lastGrayReleaseDismissVersion": "0.2.9",
   "hermesGrayEnabled": true,
