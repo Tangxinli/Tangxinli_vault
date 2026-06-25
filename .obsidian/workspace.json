@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 收进来 Raw/04 会议LIST/会议纪要_0622_各项目方向共创（金燕+文莉）.md",
+                "file": "01 收进来 Raw/02 项目资料/北链项目/讲师信息/卢彦康.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "会议纪要_0622_各项目方向共创（金燕+文莉）"
+              "title": "卢彦康"
             }
           }
         ]
@@ -88,7 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 380.5
+    "width": 298.5
   },
   "right": {
     "id": "827727ebe6a266e8",
@@ -196,7 +196,7 @@
             }
           },
           {
-            "id": "fe1574aa875b131d",
+            "id": "7cf36f4a935d962e",
             "type": "leaf",
             "state": {
               "type": "moma-view",
@@ -206,11 +206,12 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
-    "width": 327.5
+    "width": 327.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -226,12 +227,15 @@
       "obsidian-custom-frames:Open 豆包": false,
       "obsidian-custom-frames:Open DeepSeek": false,
       "moma:Open Moma": false,
-      "realclaudian:Open Claudian": false
+      "realclaudian:Open Claudian": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e44d7ee056d8c80d",
+  "active": "a6f9f75e03a48e58",
   "lastOpenFiles": [
+    "01 收进来 Raw/04 会议LIST/0625 BL1✖️TGC沟通（鑫久+新月+文莉）.txt",
     "01 收进来 Raw/02 项目资料/TGC运营/02 内容设计/TGC✖️BL1/内容规划方案/TGC-自媒体赋能设计.pdf",
+    "01 收进来 Raw/04 会议LIST/会议纪要_0622_各项目方向共创（金燕+文莉）.md",
     "01 收进来 Raw/02 项目资料/TGC运营/02 内容设计/TGC✖️BL1/内容规划方案",
     "01 收进来 Raw/02 项目资料/TGC运营/02 内容设计/TGC✖️BL1/未命名文件夹",
     "01 收进来 Raw/02 项目资料/TGC运营/02 内容设计/TGC✖️BL1/TGC-自媒体赋能设计.pdf",
@@ -245,12 +249,10 @@
     "03 Projects 我的项目/TGC运营/TGC运营-项目现场.md",
     "03 Projects 我的项目/北链项目/北链项目-项目现场.md",
     "01 收进来 Raw/04 待分类会议纪要/2026-06-22 金燕共创会议纪要.md",
-    "01 收进来 Raw/04 会议LIST/会议纪要_0622_各项目方向共创（金燕+文莉）.md",
     "01 收进来 Raw/04 会议LIST/2026-06-22 金燕共创会议纪要.md",
     "01 收进来 Raw/04 会议LIST/0624 新媒体老师推荐（李璐璐+文莉）.txt",
     "01 收进来 Raw/04 会议LIST/0623TGC✖️BL1合作沟通（鑫久+新月+文莉）.txt",
     "01 收进来 Raw/04 会议LIST/0622各项目方向共创（金燕+文莉）.txt",
-    "01 收进来 Raw/04 会议LIST",
     "01 收进来 Raw/04 待分类会议纪要/会议纪要_0624_AI时代培训与讲师体系规划.md",
     "01 收进来 Raw/04 待分类会议纪要/会议纪要_0624_新媒体老师推荐（文莉×璐璐）.md",
     "01 收进来 Raw/04 待分类会议纪要/会议纪要_0623_TGC×BL1合作沟通（鑫久+新月+文莉）.md",
