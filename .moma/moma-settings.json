@@ -49,7 +49,8 @@
       "environmentHash": "",
       "installationMethodsByHost": {
         "糖心馒头": "native-windows",
-        "tangxinlideMacBook-Pro.local": "native-windows"
+        "tangxinlideMacBook-Pro.local": "native-windows",
+        "192.168.1.10": "native-windows"
       },
       "wslDistroOverridesByHost": {}
     }
@@ -146,7 +147,7 @@
   ],
   "lastUpdateCheck": 1781054458837,
   "remoteAgentConfig": {
-    "fetchedAt": 1782381523019,
+    "fetchedAt": 1782395058435,
     "fetchedPluginVersion": "0.2.12",
     "envVars": {
       "claude": {
@@ -155,7 +156,7 @@
     }
   },
   "grayReleaseUpdateEnabled": true,
-  "lastGrayReleaseCheck": 1782391616523,
+  "lastGrayReleaseCheck": 1782395058754,
   "lastGrayReleaseDismiss": 1782038386865,
   "lastGrayReleaseDismissVersion": "0.2.9",
   "hermesGrayEnabled": true,

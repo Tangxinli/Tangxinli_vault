@@ -5,7 +5,7 @@
       "url": "https://next.ke.com/ob/api/v1/mcp/zhipu-web-search",
       "headers": {
         "Authorization": "Bearer sk-86RwZj-aDUMJlIiZQPys_A",
-        "X-Plugin-Auth": "Bearer obat-8r3sGLth0MRBv4dnFicSKw",
+        "X-Plugin-Auth": "Bearer obat-yAUTYfFVf7tMv7Ln7ALOqg",
         "X-Platform": "macOS 25.4.0",
         "X-Plugin-Version": "0.2.12",
         "X-OB-Version": "1.12.7",
