@@ -11,24 +11,10 @@
             "id": "a6f9f75e03a48e58",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CLAUDE.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "CLAUDE"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "关系图谱"
             }
           }
         ]
@@ -230,22 +216,24 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a6f9f75e03a48e58",
+  "active": "e44d7ee056d8c80d",
   "lastOpenFiles": [
+    "00 关于我/关于我.md",
+    "00 关于我/工作日历.md",
+    "00 关于我/当前主线.md",
+    "01 收进来 Raw/04 会议LIST/会议纪要_0625_BL1×TGC沟通（鑫久+新月+文莉）.md",
+    "CLAUDE.md",
     "02 Wiki AI编译层/01 主题页/SKILL赋能体系.md",
     "02 Wiki AI编译层/01 主题页/主题索引.md",
-    "01 收进来 Raw/04 会议LIST/会议纪要_0625_BL1×TGC沟通（鑫久+新月+文莉）.md",
     "01 收进来 Raw/04 会议LIST/会议纪要-0622_各项目共创（金燕+文莉）.md",
     "01 收进来 Raw/04 会议LIST/会议纪要_0624_新媒体老师推荐（文莉×李璐璐）.md",
     "01 收进来 Raw/04 会议LIST/会议纪要_0623_TGC×BL1合作沟通（鑫久+新月+文莉）.md",
     "02 Wiki AI编译层/02 判断候选/判断候选索引.md",
     "01 收进来 Raw/04 会议LIST/会议纪要_0622_各项目方向共创（金燕+文莉）.md",
-    "00 关于我/工作日历.md",
     "memory/MEMORY.md",
     "memory/calendar-update-rule.md",
     "memory",
     "02 Wiki AI编译层/03 人物组织/人物组织索引.md",
-    "00 关于我/当前主线.md",
     "01 收进来 Raw/02 项目资料/TGC运营/05 价值传播/全渠道分发矩阵/02 公众号运营/附件/糖果厂内容格式五要素.jpg",
     "01 收进来 Raw/02 项目资料/TGC运营/02 内容设计/老左主题营产出/TGC老左奖学金主题营投稿案例集.md",
     "01 收进来 Raw/02 项目资料/TGC运营/02 内容设计/老左主题营产出",
@@ -255,7 +243,6 @@
     "04 Outputs 输出成果/输出索引.md",
     "02 Wiki AI编译层/05 编译日志/编译日志.md",
     "02 Wiki AI编译层/04 项目背景/项目背景索引.md",
-    "00 关于我/关于我.md",
     "01 收进来 Raw/02 项目资料/TGC运营/05 价值传播/全渠道分发矩阵/02 公众号运营/糖果厂首次推文.md",
     "01 收进来 Raw/02 项目资料/TGC运营/05 价值传播/全渠道分发矩阵/02 公众号运营/糖果厂结尾推文1-原稿.md",
     "01 收进来 Raw/02 项目资料/北链项目/讲师信息/卢彦康.md",
@@ -266,7 +253,6 @@
     "01 收进来 Raw/02 项目资料/TGC运营/02 内容设计/TGC✖️BL1/TGC-自媒体赋能设计.pdf",
     "01 收进来 Raw/02 项目资料/TGC运营/02 内容设计/TGC✖️BL1",
     "01 收进来 Raw/04 会议LIST/会议纪要_0624_AI时代培训与讲师体系规划.md",
-    "03 Projects 我的项目/项目地图.md",
     "01 收进来 Raw/02 项目资料/9月讲师节/开启讲师体系2.0-从星级讲师到能力讲师——分享者：金燕.pptx",
     "01 收进来 Raw/02 项目资料/9月讲师节",
     "01 收进来 Raw/03 个人资料/04 日常学习/附件/业主视角下的服务流程重塑.png",
