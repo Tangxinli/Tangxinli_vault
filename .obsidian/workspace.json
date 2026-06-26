@@ -11,10 +11,24 @@
             "id": "a6f9f75e03a48e58",
             "type": "leaf",
             "state": {
-              "type": "custom-frames-豆包",
-              "state": {},
-              "icon": "lucide-bot",
-              "title": "豆包"
+              "type": "markdown",
+              "state": {
+                "file": "01 收进来 Raw/04 会议LIST/会议纪要_0625_BL1×TGC沟通（鑫久+新月+文莉）.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "会议纪要_0625_BL1×TGC沟通（鑫久+新月+文莉）"
             }
           }
         ]
@@ -218,12 +232,13 @@
   },
   "active": "a6f9f75e03a48e58",
   "lastOpenFiles": [
+    "01 收进来 Raw/04 会议LIST/会议纪要-0622_各项目共创（金燕+文莉）.md",
+    "01 收进来 Raw/04 会议LIST/会议纪要_0625_BL1×TGC沟通（鑫久+新月+文莉）.md",
+    "01 收进来 Raw/04 会议LIST/会议纪要_0624_新媒体老师推荐（文莉×李璐璐）.md",
+    "01 收进来 Raw/04 会议LIST/会议纪要_0623_TGC×BL1合作沟通（鑫久+新月+文莉）.md",
     "02 Wiki AI编译层/02 判断候选/判断候选索引.md",
     "02 Wiki AI编译层/01 主题页/SKILL赋能体系.md",
     "02 Wiki AI编译层/01 主题页/主题索引.md",
-    "01 收进来 Raw/04 会议LIST/会议纪要_0625_BL1×TGC沟通（鑫久+新月+文莉）.md",
-    "01 收进来 Raw/04 会议LIST/会议纪要-0622_各项目共创（金燕+文莉）.md",
-    "01 收进来 Raw/04 会议LIST/会议纪要_0623_TGC×BL1合作沟通（鑫久+新月+文莉）.md",
     "01 收进来 Raw/04 会议LIST/会议纪要_0622_各项目方向共创（金燕+文莉）.md",
     "00 关于我/工作日历.md",
     "memory/MEMORY.md",
@@ -251,7 +266,6 @@
     "01 收进来 Raw/02 项目资料/TGC运营/02 内容设计/TGC✖️BL1/TGC-自媒体赋能设计.pdf",
     "01 收进来 Raw/02 项目资料/TGC运营/02 内容设计/TGC✖️BL1",
     "01 收进来 Raw/04 会议LIST/会议纪要_0624_AI时代培训与讲师体系规划.md",
-    "01 收进来 Raw/04 会议LIST/会议纪要_0624_新媒体老师推荐（文莉×李璐璐）.md",
     "03 Projects 我的项目/项目地图.md",
     "01 收进来 Raw/02 项目资料/9月讲师节/开启讲师体系2.0-从星级讲师到能力讲师——分享者：金燕.pptx",
     "01 收进来 Raw/02 项目资料/9月讲师节",
