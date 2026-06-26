@@ -147,8 +147,8 @@
   ],
   "lastUpdateCheck": 1781054458837,
   "remoteAgentConfig": {
-    "fetchedAt": 1782440888405,
-    "fetchedPluginVersion": "0.2.12",
+    "fetchedAt": 1782466696482,
+    "fetchedPluginVersion": "0.2.13",
     "envVars": {
       "claude": {
         "CLAUDE_CODE_AUTO_COMPACT_WINDOW": "200000"
@@ -156,12 +156,12 @@
     }
   },
   "grayReleaseUpdateEnabled": true,
-  "lastGrayReleaseCheck": 1782452938359,
+  "lastGrayReleaseCheck": 1782466696880,
   "lastGrayReleaseDismiss": 1782038386865,
   "lastGrayReleaseDismissVersion": "0.2.9",
   "hermesGrayEnabled": true,
-  "accessToken": "obat-Ab1ShaB1cNovmRp5qZR6FA",
-  "refreshToken": "obrt-ptcOcV83PKGTK6-yy3xDyA",
-  "accessExpiresAt": 1782460139134,
-  "refreshExpiresAt": 1785044939134
+  "accessToken": "obat-ZI2J2lCfQI3m88YLXr3Fag",
+  "refreshToken": "obrt-BgZ-0KtO3NEMvswdHYyGhw",
+  "accessExpiresAt": 1782468380128,
+  "refreshExpiresAt": 1785053180128
 }
