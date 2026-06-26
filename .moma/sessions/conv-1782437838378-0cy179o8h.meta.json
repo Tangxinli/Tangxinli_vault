@@ -1,0 +1,23 @@
+{
+  "id": "conv-1782437838378-0cy179o8h",
+  "providerId": "claude",
+  "title": "4✖️7案例整理",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1782437838381,
+  "updatedAt": 1782438290923,
+  "lastResponseAt": 1782438290923,
+  "sessionId": "e8c82c68-ef3c-489b-9f2d-38d71f93b151",
+  "providerState": {
+    "providerSessionId": "e8c82c68-ef3c-489b-9f2d-38d71f93b151"
+  },
+  "currentNote": "01 收进来 Raw/02 项目资料/4×7项目/03 城市共创/重庆/PS：付振博案例萃取/付振博案例-4×7框架拆解分析.md",
+  "usage": {
+    "model": "haiku",
+    "inputTokens": 0,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 0,
+    "percentage": 0
+  }
+}
