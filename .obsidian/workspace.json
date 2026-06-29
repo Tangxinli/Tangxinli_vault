@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 收进来 Raw/03 个人资料/06 述职材料/2026-上半年度 总结及规划.md",
+                "file": "01 收进来 Raw/02 项目资料/4×7项目/03 城市共创/重庆/06 运营规划/4×7群运营汇报-燕儿姐.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-上半年度 总结及规划"
+              "title": "4×7群运营汇报-燕儿姐"
             }
           }
         ]
@@ -88,7 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240.5
+    "width": 401.5
   },
   "right": {
     "id": "827727ebe6a266e8",
@@ -123,12 +123,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01 TGC运营/04 价值传播与增长/全渠道分发矩阵/03 视频号运营/邓鹏老师_视频号运营策略.md",
+                "file": "01 收进来 Raw/02 项目资料/4×7项目/03 城市共创/重庆/06 运营规划/4×7群运营汇报-燕儿姐.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "邓鹏老师_视频号运营策略 的出链列表"
+              "title": "4×7群运营汇报-燕儿姐 的出链列表"
             }
           },
           {
@@ -206,7 +206,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -232,8 +232,8 @@
   },
   "active": "a6f9f75e03a48e58",
   "lastOpenFiles": [
-    "01 收进来 Raw/03 个人资料/07 日常总结/02 周报/6月5日例会.md",
     "01 收进来 Raw/03 个人资料/06 述职材料/2026-上半年度 总结及规划.md",
+    "01 收进来 Raw/03 个人资料/07 日常总结/02 周报/6月5日例会.md",
     "01 收进来 Raw/03 个人资料/07 日常总结/02 周报/6月26日例会.md",
     "01 收进来 Raw/03 个人资料/07 日常总结/02 周报/6月21日例会.md",
     "01 收进来 Raw/03 个人资料/07 日常总结/02 周报/6月12日例会.md",
