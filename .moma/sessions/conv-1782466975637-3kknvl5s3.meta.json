@@ -4,8 +4,8 @@
   "title": "横比分析四萃取案例与大S框架优化",
   "titleGenerationStatus": "success",
   "createdAt": 1782466975637,
-  "updatedAt": 1782710636079,
-  "lastResponseAt": 1782710636079,
+  "updatedAt": 1782711094340,
+  "lastResponseAt": 1782711094340,
   "sessionId": "62da7622-da3e-45df-a220-5f5c227afcae",
   "providerState": {
     "providerSessionId": "62da7622-da3e-45df-a220-5f5c227afcae",
@@ -1198,13 +1198,13 @@
   "currentNote": "01 收进来 Raw/02 项目资料/4×7项目/01 项目理解与规划/（最新）4×7案例整理与项目路径梳理-v1.0.md",
   "usage": {
     "model": "haiku",
-    "inputTokens": 1568,
+    "inputTokens": 18749,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 163840,
-    "outputTokens": 133,
+    "cacheReadInputTokens": 35392,
+    "outputTokens": 358,
     "contextWindow": 200000,
-    "contextTokens": 165408,
-    "percentage": 83,
+    "contextTokens": 54141,
+    "percentage": 27,
     "contextWindowIsAuthoritative": true
   }
 }
