@@ -4,8 +4,8 @@
   "title": "润色公众号讲师体系活动推文",
   "titleGenerationStatus": "success",
   "createdAt": 1782892384718,
-  "updatedAt": 1782892754916,
-  "lastResponseAt": 1782892754916,
+  "updatedAt": 1782906426983,
+  "lastResponseAt": 1782906426983,
   "sessionId": "175c0367-d41c-439a-8089-8aee15b50e48",
   "providerState": {
     "providerSessionId": "175c0367-d41c-439a-8089-8aee15b50e48",
@@ -168,12 +168,13 @@
   "currentNote": "01 收进来 Raw/02 项目资料/4×7项目/01 项目理解与规划/4x7落地方案_花桥讲师发展_v0.1.md",
   "usage": {
     "model": "haiku",
-    "inputTokens": 12010,
+    "inputTokens": 44400,
     "cacheCreationInputTokens": 0,
     "cacheReadInputTokens": 25856,
-    "outputTokens": 256,
+    "outputTokens": 9188,
     "contextWindow": 200000,
-    "contextTokens": 37866,
-    "percentage": 19
+    "contextTokens": 70256,
+    "percentage": 35,
+    "contextWindowIsAuthoritative": true
   }
 }
