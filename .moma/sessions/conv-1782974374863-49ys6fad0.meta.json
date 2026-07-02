@@ -4,8 +4,8 @@
   "title": "设计萃取Skill输出服务故事与框架拆解",
   "titleGenerationStatus": "success",
   "createdAt": 1782974374863,
-  "updatedAt": 1782975612241,
-  "lastResponseAt": 1782975612241,
+  "updatedAt": 1782977502050,
+  "lastResponseAt": 1782977502050,
   "sessionId": "77a5c42e-bca4-494f-9d30-2b8c3d81d533",
   "providerState": {
     "providerSessionId": "77a5c42e-bca4-494f-9d30-2b8c3d81d533"
@@ -13,13 +13,13 @@
   "currentNote": "01 收进来 Raw/05 Skill 工具/高手-ljg/ljg-people/SKILL.md",
   "usage": {
     "model": "haiku",
-    "inputTokens": 5416,
+    "inputTokens": 208,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 65344,
-    "outputTokens": 281,
+    "cacheReadInputTokens": 107904,
+    "outputTokens": 196,
     "contextWindow": 200000,
-    "contextTokens": 70760,
-    "percentage": 35,
+    "contextTokens": 108112,
+    "percentage": 54,
     "contextWindowIsAuthoritative": true
   }
 }
