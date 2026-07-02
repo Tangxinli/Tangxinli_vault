@@ -59,10 +59,24 @@
             "id": "a670ffb22fdc99ea",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "01 收进来 Raw/02 项目资料/4×7项目/01 项目理解与规划/⭐️《看见消费者》——4×7重庆共创项目.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "⭐️《看见消费者》——4×7重庆共创项目"
             }
           }
         ],
