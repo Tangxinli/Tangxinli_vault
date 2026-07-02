@@ -4,8 +4,8 @@
   "title": "整理个人资料文件夹并重构文件框架",
   "titleGenerationStatus": "success",
   "createdAt": 1782970267153,
-  "updatedAt": 1782970347487,
-  "lastResponseAt": 1782970347487,
+  "updatedAt": 1782970636438,
+  "lastResponseAt": 1782970636438,
   "sessionId": "5c6f5824-7136-48ab-9937-67c1863da273",
   "providerState": {
     "providerSessionId": "5c6f5824-7136-48ab-9937-67c1863da273"
@@ -13,13 +13,13 @@
   "currentNote": "01 收进来 Raw/02 项目资料/4×7项目/03 城市共创/重庆/06 运营规划/共创群运营词.md",
   "usage": {
     "model": "haiku",
-    "inputTokens": 1511,
+    "inputTokens": 1190,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 41792,
-    "outputTokens": 1776,
+    "cacheReadInputTokens": 54720,
+    "outputTokens": 110,
     "contextWindow": 200000,
-    "contextTokens": 43303,
-    "percentage": 22,
+    "contextTokens": 55910,
+    "percentage": 28,
     "contextWindowIsAuthoritative": true
   }
 }

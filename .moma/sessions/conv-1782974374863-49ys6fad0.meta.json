@@ -1,0 +1,25 @@
+{
+  "id": "conv-1782974374863-49ys6fad0",
+  "providerId": "claude",
+  "title": "设计萃取Skill输出服务故事与框架拆解",
+  "titleGenerationStatus": "success",
+  "createdAt": 1782974374863,
+  "updatedAt": 1782974853479,
+  "lastResponseAt": 1782974853479,
+  "sessionId": "77a5c42e-bca4-494f-9d30-2b8c3d81d533",
+  "providerState": {
+    "providerSessionId": "77a5c42e-bca4-494f-9d30-2b8c3d81d533"
+  },
+  "currentNote": "01 收进来 Raw/05 Skill 工具/高手-ljg/ljg-people/SKILL.md",
+  "usage": {
+    "model": "haiku",
+    "inputTokens": 2836,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 46784,
+    "outputTokens": 6290,
+    "contextWindow": 200000,
+    "contextTokens": 49620,
+    "percentage": 25,
+    "contextWindowIsAuthoritative": true
+  }
+}
