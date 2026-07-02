@@ -30,8 +30,57 @@
               "icon": "lucide-file",
               "title": "4✖️7案例萃取"
             }
+          },
+          {
+            "id": "a3619f4ae86ac53c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01 收进来 Raw/05 Skill 工具/4✖️7案例萃取.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "4✖️7案例萃取"
+            }
+          },
+          {
+            "id": "a670ffb22fdc99ea",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01 收进来 Raw/4✖️7案例萃取.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "4✖️7案例萃取"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -230,11 +279,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e44d7ee056d8c80d",
+  "active": "a670ffb22fdc99ea",
   "lastOpenFiles": [
-    "01 收进来 Raw/05 Skill 工具/高手-ljg/ljg-extract.md",
-    "01 收进来 Raw/02 项目资料/4×7项目/03 城市共创/重庆/06 运营规划/案例集出版计划.md",
     "01 收进来 Raw/05 Skill 工具/4✖️7案例萃取.md",
+    "01 收进来 Raw/4✖️7案例萃取.md",
+    "01 收进来 Raw/02 项目资料/4×7项目/03 城市共创/重庆/06 运营规划/案例集出版计划.md",
     "01 收进来 Raw/05 Skill 工具/女娲.md",
     "01 收进来 Raw/05 Skill 工具/高手-ljg/ljg-people/SKILL.md",
     "01 收进来 Raw/02 项目资料/4×7项目/03 城市共创/重庆/06 运营规划/共创群运营词.md",
