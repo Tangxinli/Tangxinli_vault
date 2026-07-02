@@ -147,7 +147,7 @@
   ],
   "lastUpdateCheck": 1781054458837,
   "remoteAgentConfig": {
-    "fetchedAt": 1782968369815,
+    "fetchedAt": 1782970147301,
     "fetchedPluginVersion": "0.2.14",
     "envVars": {
       "claude": {

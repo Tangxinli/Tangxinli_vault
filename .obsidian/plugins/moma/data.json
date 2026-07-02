@@ -4,8 +4,12 @@
       {
         "tabId": "tab-1782906538846-zcu27o8",
         "conversationId": "conv-1782906681467-xupsqdu9k"
+      },
+      {
+        "tabId": "tab-1782970147100-gq87csd",
+        "conversationId": null
       }
     ],
-    "activeTabId": "tab-1782906538846-zcu27o8"
+    "activeTabId": "tab-1782970147100-gq87csd"
   }
 }
