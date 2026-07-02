@@ -4,8 +4,8 @@
   "title": "组织「看见消费者」案例征集活动",
   "titleGenerationStatus": "success",
   "createdAt": 1782906681467,
-  "updatedAt": 1782956635798,
-  "lastResponseAt": 1782956635798,
+  "updatedAt": 1782967576581,
+  "lastResponseAt": 1782967576581,
   "sessionId": "ac5295b1-5f27-4ed8-8780-ee311fd64574",
   "providerState": {
     "providerSessionId": "ac5295b1-5f27-4ed8-8780-ee311fd64574"
@@ -13,13 +13,13 @@
   "currentNote": "01 收进来 Raw/02 项目资料/4×7项目/01 项目理解与规划/⭐️《看见消费者》——4×7重庆共创项目.md",
   "usage": {
     "model": "haiku",
-    "inputTokens": 465,
+    "inputTokens": 680,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 69376,
-    "outputTokens": 675,
+    "cacheReadInputTokens": 70528,
+    "outputTokens": 390,
     "contextWindow": 200000,
-    "contextTokens": 69841,
-    "percentage": 35,
+    "contextTokens": 71208,
+    "percentage": 36,
     "contextWindowIsAuthoritative": true
   }
 }
