@@ -1,9 +1,25 @@
 {
   "id": "conv-1783056753784-0wom3kswl",
   "providerId": "claude",
-  "title": "梳理本周各个项目的工作及成果，以表格的形式放到7月3日例会的事实层",
-  "titleGenerationStatus": "pending",
+  "title": "梳理项目周工作成果至例会",
+  "titleGenerationStatus": "success",
   "createdAt": 1783056753785,
-  "updatedAt": 1783056753790,
-  "sessionId": null
+  "updatedAt": 1783056874911,
+  "lastResponseAt": 1783056874911,
+  "sessionId": "344777d9-41bd-4f94-b7fc-d5445d9cd28c",
+  "providerState": {
+    "providerSessionId": "344777d9-41bd-4f94-b7fc-d5445d9cd28c"
+  },
+  "currentNote": "01 收进来 Raw/03 个人资料/07 日常总结/02 周报/7月3日例会.md",
+  "usage": {
+    "model": "haiku",
+    "inputTokens": 1420,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 79872,
+    "outputTokens": 172,
+    "contextWindow": 200000,
+    "contextTokens": 81292,
+    "percentage": 41,
+    "contextWindowIsAuthoritative": true
+  }
 }

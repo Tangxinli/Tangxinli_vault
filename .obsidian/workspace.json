@@ -137,7 +137,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 449.5
+    "width": 325.5
   },
   "right": {
     "id": "827727ebe6a266e8",
@@ -279,7 +279,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a670ffb22fdc99ea",
+  "active": "9e12bae9b412b733",
   "lastOpenFiles": [
     "01 收进来 Raw/05 Skill 工具/案例萃取-SKILL.md",
     "01 收进来 Raw/03 个人资料/07 日常总结/02 周报/7月3日例会.md",
