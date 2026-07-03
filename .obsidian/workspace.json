@@ -137,7 +137,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 297.5
+    "width": 449.5
   },
   "right": {
     "id": "827727ebe6a266e8",
@@ -279,7 +279,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a670ffb22fdc99ea",
+  "active": "e44d7ee056d8c80d",
   "lastOpenFiles": [
     "01 收进来 Raw/05 Skill 工具/4✖️7案例萃取.md",
     "01 收进来 Raw/02 项目资料/4×7项目/01 项目理解与规划/⭐️《看见消费者》——4×7重庆共创项目.md",
