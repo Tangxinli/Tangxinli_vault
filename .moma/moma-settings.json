@@ -156,12 +156,12 @@
     }
   },
   "grayReleaseUpdateEnabled": true,
-  "lastGrayReleaseCheck": 1783060111476,
+  "lastGrayReleaseCheck": 1783071000494,
   "lastGrayReleaseDismiss": 1782038386865,
   "lastGrayReleaseDismissVersion": "0.2.9",
   "hermesGrayEnabled": true,
-  "accessToken": "obat-lFdAIkVNz8l5M_hRiV4fxg",
-  "refreshToken": "obrt-JlKqfHbGzDp11gdkEXRlCQ",
-  "accessExpiresAt": 1783063710960,
-  "refreshExpiresAt": 1785648510960
+  "accessToken": "obat-NUZr9nrSXq3Evl8nSIGn_g",
+  "refreshToken": "obrt-OtxHPfUxifZ_FYver9EUtg",
+  "accessExpiresAt": 1783078200886,
+  "refreshExpiresAt": 1785663000886
 }
