@@ -8,54 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a6f9f75e03a48e58",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01 收进来 Raw/02 项目资料/4×7项目/03 城市共创/重庆/06 运营规划/案例集出版计划.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "案例集出版计划"
-            }
-          },
-          {
-            "id": "a3619f4ae86ac53c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01 收进来 Raw/4✖️7案例萃取.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "4✖️7案例萃取"
-            }
-          },
-          {
             "id": "a670ffb22fdc99ea",
             "type": "leaf",
             "state": {
@@ -79,8 +31,7 @@
               "title": "7月3日例会"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -281,8 +232,9 @@
   },
   "active": "a670ffb22fdc99ea",
   "lastOpenFiles": [
-    "01 收进来 Raw/03 个人资料/07 日常总结/02 周报/6月26日例会.md",
+    "01 收进来 Raw/02 项目资料/4×7项目/03 城市共创/重庆/06 运营规划/案例集出版计划.md",
     "01 收进来 Raw/03 个人资料/07 日常总结/02 周报/7月3日例会.md",
+    "01 收进来 Raw/03 个人资料/07 日常总结/02 周报/6月26日例会.md",
     "01 收进来 Raw/05 Skill 工具/案例萃取-SKILL.md",
     "01 收进来 Raw/05 Skill 工具/4✖️7案例萃取.md",
     "01 收进来 Raw/04 会议LIST/会议纪要-0622_各项目共创（金燕+文莉）.md",
@@ -290,7 +242,6 @@
     "01 收进来 Raw/04 会议LIST/会议纪要_0702_天津✖️花桥讲师沟通_文莉+金燕+姗姗+天津会议室.md",
     "01 收进来 Raw/02 项目资料/4×7项目/01 项目理解与规划/⭐️《看见消费者》——4×7重庆共创项目.md",
     "01 收进来 Raw/4✖️7案例萃取.md",
-    "01 收进来 Raw/02 项目资料/4×7项目/03 城市共创/重庆/06 运营规划/案例集出版计划.md",
     "01 收进来 Raw/05 Skill 工具/女娲.md",
     "01 收进来 Raw/05 Skill 工具/高手-ljg/ljg-people/SKILL.md",
     "01 收进来 Raw/02 项目资料/4×7项目/03 城市共创/重庆/06 运营规划/共创群运营词.md",
