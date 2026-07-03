@@ -4,8 +4,8 @@
   "title": "梳理项目周工作成果至例会",
   "titleGenerationStatus": "success",
   "createdAt": 1783056753785,
-  "updatedAt": 1783056874911,
-  "lastResponseAt": 1783056874911,
+  "updatedAt": 1783060802824,
+  "lastResponseAt": 1783060802824,
   "sessionId": "344777d9-41bd-4f94-b7fc-d5445d9cd28c",
   "providerState": {
     "providerSessionId": "344777d9-41bd-4f94-b7fc-d5445d9cd28c"
@@ -13,13 +13,13 @@
   "currentNote": "01 收进来 Raw/03 个人资料/07 日常总结/02 周报/7月3日例会.md",
   "usage": {
     "model": "haiku",
-    "inputTokens": 1420,
+    "inputTokens": 1148,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 79872,
-    "outputTokens": 172,
+    "cacheReadInputTokens": 89344,
+    "outputTokens": 124,
     "contextWindow": 200000,
-    "contextTokens": 81292,
-    "percentage": 41,
+    "contextTokens": 90492,
+    "percentage": 45,
     "contextWindowIsAuthoritative": true
   }
 }
