@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 收进来 Raw/03 个人资料/07 日常总结/02 周报/7月3日例会.md",
+                "file": "01 收进来 Raw/04 会议LIST/会议纪要_0703_讲师组会议.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "7月3日例会"
+              "title": "会议纪要_0703_讲师组会议"
             }
           }
         ]
@@ -85,10 +85,26 @@
             }
           }
         ]
+      },
+      {
+        "id": "03d016d0c69c9103",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f3d3cba39aa87fab",
+            "type": "leaf",
+            "state": {
+              "type": "moma-space",
+              "state": {},
+              "icon": "moma-planet-line",
+              "title": "Moma Space"
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 329.5
   },
   "right": {
     "id": "827727ebe6a266e8",
@@ -210,8 +226,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 337.5,
-    "collapsed": true
+    "width": 337.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -233,8 +248,9 @@
   },
   "active": "a670ffb22fdc99ea",
   "lastOpenFiles": [
-    "01 收进来 Raw/02 项目资料/4×7项目/03 城市共创/重庆/06 运营规划/案例集出版计划.md",
     "01 收进来 Raw/03 个人资料/07 日常总结/02 周报/7月3日例会.md",
+    "01 收进来 Raw/04 会议LIST/会议纪要_0703_讲师组会议.md",
+    "01 收进来 Raw/02 项目资料/4×7项目/03 城市共创/重庆/06 运营规划/案例集出版计划.md",
     "01 收进来 Raw/03 个人资料/07 日常总结/02 周报/6月26日例会.md",
     "01 收进来 Raw/05 Skill 工具/案例萃取-SKILL.md",
     "01 收进来 Raw/05 Skill 工具/4✖️7案例萃取.md",
@@ -259,7 +275,6 @@
     "01 收进来 Raw/05 Skill 工具/高手-ljg/ljg-qa.md",
     "01 收进来 Raw/05 Skill 工具/高手-ljg/ljg-push.md",
     "01 收进来 Raw/05 Skill 工具/高手-ljg/ljg-present.md",
-    "01 收进来 Raw/05 Skill 工具/高手-ljg/ljg-plain.md",
     "01 收进来 Raw/05 Skill 工具/高手-ljg/ljg-people",
     "01 收进来 Raw/05 Skill 工具/高手-ljg",
     "01 收进来 Raw/05 Skill 工具",
