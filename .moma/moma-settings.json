@@ -140,6 +140,13 @@
       "identity": "user",
       "autoInstallAttemptedAt": "2026-06-02T11:53:37.111Z"
     },
+    "moma": {
+      "enabled": false,
+      "cliPath": "",
+      "defaultConversationId": "",
+      "defaultParentFolderId": "",
+      "identity": "user"
+    },
     "strictMarkdown": false
   },
   "appliedMigrations": [
@@ -148,8 +155,8 @@
   ],
   "lastUpdateCheck": 1781054458837,
   "remoteAgentConfig": {
-    "fetchedAt": 1783166493499,
-    "fetchedPluginVersion": "0.2.14",
+    "fetchedAt": 1783299624957,
+    "fetchedPluginVersion": "0.2.16",
     "envVars": {
       "claude": {
         "CLAUDE_CODE_AUTO_COMPACT_WINDOW": "200000"
@@ -157,12 +164,13 @@
     }
   },
   "grayReleaseUpdateEnabled": true,
-  "lastGrayReleaseCheck": 1783166493603,
-  "lastGrayReleaseDismiss": 1782038386865,
-  "lastGrayReleaseDismissVersion": "0.2.9",
+  "lastGrayReleaseCheck": 1783299625487,
+  "lastGrayReleaseDismiss": 1783166515406,
+  "lastGrayReleaseDismissVersion": "0.2.16",
   "hermesGrayEnabled": true,
-  "accessToken": "obat-g-IGxdXhF5use9yOuuZrFw",
-  "refreshToken": "obrt-O-G8r5pwwopS7gz2v7_snQ",
-  "accessExpiresAt": 1783173695217,
-  "refreshExpiresAt": 1785758495217
+  "accessToken": "obat-VxT8_y3p89Zba3Hjnoh9Pg",
+  "refreshToken": "obrt-1HyaCYpGP3ZNmmbKdkH11Q",
+  "accessExpiresAt": 1783306477126,
+  "refreshExpiresAt": 1785891277126,
+  "momaCliGrayEnabled": false
 }

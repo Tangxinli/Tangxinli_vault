@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 收进来 Raw/04 会议LIST/会议纪要_0703_讲师组会议.md",
+                "file": "01 收进来 Raw/03 个人资料/01 身心健康/2025年体检报告.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "会议纪要_0703_讲师组会议"
+              "title": "2025年体检报告"
             }
           }
         ]
@@ -87,11 +87,11 @@
         ]
       },
       {
-        "id": "03d016d0c69c9103",
+        "id": "eab2006bc40712ca",
         "type": "tabs",
         "children": [
           {
-            "id": "f3d3cba39aa87fab",
+            "id": "c90aee9e91513c49",
             "type": "leaf",
             "state": {
               "type": "moma-space",
@@ -104,7 +104,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 329.5
+    "width": 270.5
   },
   "right": {
     "id": "827727ebe6a266e8",
@@ -212,7 +212,7 @@
             }
           },
           {
-            "id": "9e12bae9b412b733",
+            "id": "ea337b188a435de6",
             "type": "leaf",
             "state": {
               "type": "moma-view",
@@ -246,10 +246,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a670ffb22fdc99ea",
+  "active": "ea337b188a435de6",
   "lastOpenFiles": [
-    "01 收进来 Raw/03 个人资料/07 日常总结/02 周报/7月3日例会.md",
+    "会议LIST",
+    "03 Projects 我的项目/4×7项目/4×7项目-项目现场.md",
+    "02 Wiki AI编译层/03 人物组织/人物组织索引.md",
+    "00 关于我/工作日历.md",
+    "00 关于我/当前主线.md",
+    "00 关于我/关于我.md",
     "01 收进来 Raw/04 会议LIST/会议纪要_0703_讲师组会议.md",
+    "01 收进来 Raw/03 个人资料/07 日常总结/02 周报/7月3日例会.md",
     "01 收进来 Raw/02 项目资料/4×7项目/03 城市共创/重庆/06 运营规划/案例集出版计划.md",
     "01 收进来 Raw/03 个人资料/07 日常总结/02 周报/6月26日例会.md",
     "01 收进来 Raw/05 Skill 工具/案例萃取-SKILL.md",
@@ -269,12 +275,6 @@
     "01 收进来 Raw/05 Skill 工具/高手-ljg/ljg-think.md",
     "01 收进来 Raw/05 Skill 工具/高手-ljg/ljg-skill-map.md",
     "01 收进来 Raw/05 Skill 工具/高手-ljg/ljg-roundtable.md",
-    "01 收进来 Raw/05 Skill 工具/高手-ljg/ljg-relationship.md",
-    "01 收进来 Raw/05 Skill 工具/高手-ljg/ljg-read.md",
-    "01 收进来 Raw/05 Skill 工具/高手-ljg/ljg-rank.md",
-    "01 收进来 Raw/05 Skill 工具/高手-ljg/ljg-qa.md",
-    "01 收进来 Raw/05 Skill 工具/高手-ljg/ljg-push.md",
-    "01 收进来 Raw/05 Skill 工具/高手-ljg/ljg-present.md",
     "01 收进来 Raw/05 Skill 工具/高手-ljg/ljg-people",
     "01 收进来 Raw/05 Skill 工具/高手-ljg",
     "01 收进来 Raw/05 Skill 工具",

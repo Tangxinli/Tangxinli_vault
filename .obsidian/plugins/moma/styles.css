@@ -882,6 +882,17 @@ body.theme-light .moma-container[data-provider="codex"] {
   color: #2dd87f !important;
 }
 
+.moma-share-action-btn-loading,
+.moma-share-action-btn-loading:hover,
+.moma-share-action-btn-loading:focus-visible {
+  cursor: wait;
+  opacity: 0.78;
+}
+
+.moma-share-action-btn-loading .moma-share-action-icon svg {
+  animation: moma-spin 0.7s linear infinite;
+}
+
 .moma-share-action-btn-accent {
   color: var(--interactive-accent) !important;
 }
@@ -1082,6 +1093,7 @@ body.theme-light .moma-container[data-provider="codex"] {
   }
 
   .moma-notification-refresh-btn--loading svg,
+  .moma-share-action-btn-loading .moma-share-action-icon svg,
   .moma-notification-task-card-pending .moma-notification-task-icon svg {
     animation: none;
   }
@@ -2719,7 +2731,7 @@ body.theme-dark .moma-tool-content-todo {
   text-overflow: ellipsis;
 }
 
-/* Positions the overlay inside the same box as the textarea */
+/* Positions the chat editor inside the input wrapper. */
 .moma-input-textarea-wrap {
   position: relative;
   flex: 1 1 auto;
@@ -2727,11 +2739,9 @@ body.theme-dark .moma-tool-content-todo {
   overflow: hidden;
 }
 
-/* Mirrors textarea content; all text is var(--text-normal), @mention spans get accent color.
-   Comes after <textarea> in DOM so it paints on top without z-index tricks.
-   Pointer-events: none so it never intercepts clicks or keyboard input. */
+/* Legacy overlay placeholder. CodeMirror decorations now own @mention highlighting. */
 .moma-input-overlay {
-  /* display: none; */
+  display: none;
   position: absolute;
   top: 0;
   left: 0;
@@ -2753,6 +2763,59 @@ body.theme-dark .moma-tool-content-todo {
   color: var(--interactive-accent);
 }
 
+.moma-cm-input-host {
+  min-height: 60px;
+  max-height: 100%;
+  overflow: hidden;
+}
+
+.moma-cm-input-host .cm-editor {
+  min-height: 60px;
+  height: 100%;
+  background: transparent;
+  color: var(--text-normal);
+  font-family: inherit;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.moma-cm-input-host .cm-editor.cm-focused {
+  outline: none;
+}
+
+.moma-cm-input-host .cm-scroller {
+  overflow-x: hidden;
+  overflow-y: auto;
+  font-family: inherit;
+  line-height: 1.4;
+}
+
+.moma-cm-input-host .cm-content {
+  max-width: 100%;
+  min-height: 60px;
+  padding: 8px 10px 10px 10px;
+  caret-color: var(--text-normal);
+  font-family: inherit;
+}
+
+.moma-cm-input-host .cm-line {
+  padding: 0;
+}
+
+.moma-cm-input-host .cm-placeholder {
+  display: inline-block;
+  max-width: 100%;
+  overflow: hidden;
+  color: var(--text-muted);
+  text-overflow: ellipsis;
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+.moma-cm-mention {
+  color: var(--interactive-accent);
+}
+
 .moma-input {
   width: 100%;
   min-height: 60px;
@@ -2762,7 +2825,7 @@ body.theme-dark .moma-tool-content-todo {
   border: none !important;
   border-radius: 6px;
   background: transparent !important;
-  /* Transparent so only the overlay text is visible; caret stays visible */
+  /* Hidden compatibility textarea; CodeMirror is the visible editor. */
   color: transparent;
   caret-color: var(--text-normal);
   font-family: inherit;
@@ -2771,6 +2834,18 @@ body.theme-dark .moma-tool-content-todo {
   box-shadow: none !important;
   overflow-y: auto;
   unicode-bidi: plaintext; /* Proper BiDi text handling for mixed RTL/LTR */
+}
+
+.moma-input.moma-input-shim {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  min-height: 0;
+  max-height: 1px;
+  padding: 0;
+  opacity: 0;
+  pointer-events: none;
+  overflow: hidden;
 }
 
 .moma-input:hover,
@@ -4091,6 +4166,21 @@ body.theme-dark .moma-tool-content-todo {
 .moma-mention-item:hover,
 .moma-mention-item.selected {
   background: var(--background-modifier-hover);
+}
+
+.moma-mention-item.moma-mention-section {
+  cursor: default;
+  padding: 8px 12px 4px;
+  color: var(--text-muted);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0;
+  transition: none;
+}
+
+.moma-mention-item.moma-mention-section:hover,
+.moma-mention-item.moma-mention-section.selected {
+  background: transparent;
 }
 
 .moma-mention-icon {
