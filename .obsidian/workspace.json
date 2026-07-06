@@ -85,22 +85,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "eab2006bc40712ca",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "c90aee9e91513c49",
-            "type": "leaf",
-            "state": {
-              "type": "moma-space",
-              "state": {},
-              "icon": "moma-planet-line",
-              "title": "Moma Space"
-            }
-          }
-        ]
       }
     ],
     "direction": "horizontal",
@@ -246,7 +230,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ea337b188a435de6",
+  "active": "a670ffb22fdc99ea",
   "lastOpenFiles": [
     "会议LIST",
     "03 Projects 我的项目/4×7项目/4×7项目-项目现场.md",
