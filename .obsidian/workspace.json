@@ -210,7 +210,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 337.5
+    "width": 504.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -230,7 +230,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a670ffb22fdc99ea",
+  "active": "ea337b188a435de6",
   "lastOpenFiles": [
     "会议LIST",
     "03 Projects 我的项目/4×7项目/4×7项目-项目现场.md",
