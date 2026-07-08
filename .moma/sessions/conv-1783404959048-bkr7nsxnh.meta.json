@@ -4,8 +4,8 @@
   "title": "撰写4×7项目与TGC六月工作公告",
   "titleGenerationStatus": "success",
   "createdAt": 1783404959051,
-  "updatedAt": 1783406217670,
-  "lastResponseAt": 1783406217670,
+  "updatedAt": 1783415124087,
+  "lastResponseAt": 1783415124087,
   "sessionId": "36f70e2e-d015-4a2c-9e0a-2e002544c11a",
   "providerState": {
     "providerSessionId": "36f70e2e-d015-4a2c-9e0a-2e002544c11a",
@@ -266,13 +266,13 @@
   },
   "usage": {
     "model": "haiku",
-    "inputTokens": 1982,
+    "inputTokens": 31147,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 53888,
-    "outputTokens": 950,
+    "cacheReadInputTokens": 25856,
+    "outputTokens": 1096,
     "contextWindow": 200000,
-    "contextTokens": 55870,
-    "percentage": 28,
+    "contextTokens": 57003,
+    "percentage": 29,
     "contextWindowIsAuthoritative": true
   }
 }
